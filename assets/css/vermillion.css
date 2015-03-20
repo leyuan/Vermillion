@@ -1,0 +1,159 @@
+body {
+  padding-top: 50px;
+  font: 100%;
+}
+
+div {
+	display: block;
+	overflow: hidden;
+}
+
+.left {
+	display: block;
+	margin-left: 0;
+	margin-right: auto;
+}
+
+.center {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.right {
+	display: block;
+	margin-left: auto;
+	margin-right: 0;
+}
+
+.p-color {
+	color: rgb(91, 166, 229);
+}
+
+.r-color {
+	color: rgb(245, 158, 23);
+}
+
+.p-btn {
+	display: block;
+	width: 150px;
+	height: 50px;
+	background-color: transparent;
+	color: rgb(91, 166, 229);
+	border-color: rgb(91, 166, 229);
+	border: 1px solid;
+	border-radius: 6px;
+	font-size: 1.1em;
+	box-shadow: none;
+}
+
+.p-btn:hover {
+	background-color: rgb(91, 166, 229);
+	color: white;
+}
+
+.default-font {
+	color: #5C5C5C;
+}
+
+.white-font {
+	color: white;
+}
+
+.font-light {
+	font-weight: 300;
+}
+
+.font-underline {
+	text-decoration: underline;
+}
+
+/** Shared Divs **/
+.footer {
+	margin: 0;
+	padding: 0;
+	height: 150px;
+	background-color: #333;
+}
+
+/** Home Page **/
+
+.home-row {
+	min-height: 200px;
+}
+
+.home-jumbotron {
+	height: 480px;
+	background-color: rgb(91, 166, 229);
+	/*background-image: url(../images/bg1.jpg);*/
+	background-repeat: no-repeat;
+	background-position: center center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+.why-vermillion {
+	padding-left: 5%;
+	padding-top: 60px;
+	padding-right: 5%;
+	padding-bottom: 60px;
+}
+
+.why-vermillion > div {
+	margin-bottom: 40px;
+}
+
+.why-vermillion > .body, .why-vermillion > .foot {
+	padding-left: 5%;
+	padding-right: 5%;
+}
+
+.v-advantage > div {
+	margin-bottom: 40px
+}
+
+.banner-link {
+	background-color: rgb(91, 166, 229);
+	min-height: 300px;
+}
+
+.home-contact {
+	margin-bottom: 0;
+	padding-top: 60px;
+	padding-bottom: 60px;
+	min-height: 300px;
+}
+
+.home-contact > div {
+	margin-bottom: 10px;
+}
+
+.home-contact-btn {
+	background-color: rgb(91, 166, 229);
+}
+
+/** Location Page **/
+.location-row {
+	padding-top: 60px;
+	padding-bottom: 60px;
+	min-height: 300px;
+}
+
+.location-jumbotron {
+	height: 480px;
+	background-color: none;
+	background-image: url(../images/bg1.jpg);
+	background-repeat: no-repeat;
+	background-position: center center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+.location-utilities {
+	background-color: rgb(240, 170, 43);
+}
+
