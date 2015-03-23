@@ -31,14 +31,21 @@
 
 	<!-- Main jumbotron for a primary marketing message or call to action -->
 	<div class="jumbotron home-jumbotron">
-		<div class="container">
-			<h1>Hello, world!</h1>
-			<p>This is a template for a simple marketing or informational website. It includes a large callout called a jumbotron and three supporting pieces of content. Use it as a starting point to create something more unique.</p>
-			<p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more &raquo;</a></p>
+		<div class="container center text-center">
+			<div class="head center">
+				<h2>Welcome Home</h2>
+				<p>Feel comfortable with your choice in condos</p>
+			</div>
+
+			<div class="body">
+				<form action="#" method="post">
+					<input type="text" name="email" id="home-email" value="" tabindex="1" placeholder="Email Address" /><input type="submit" id="home-submit" value="Register &raquo;" />
+				</form>
+			</div>
 		</div>
 	</div>
 
-	<div class="home-row home-advantage">
+	<div class="home-row">
 		<div class="container center text-center why-vermillion">
 			<div class="text-left head">
 				<h2 class="p-color font-light">Why Choose Vermillion?</h2>

@@ -83,15 +83,64 @@ div {
 }
 
 .home-jumbotron {
-	height: 480px;
+	padding-top: 10%;
+	height: 680px;
+	color: rgba(255, 255, 255, 0.85);
+
 	background-color: rgb(91, 166, 229);
-	/*background-image: url(../images/bg1.jpg);*/
+	background-image: url(../images/home.png);
 	background-repeat: no-repeat;
 	background-position: center center;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
+}
+
+.home-jumbotron > div {
+	vertical-align: middle;
+}
+
+.home-jumbotron > div > .head {
+	margin-bottom: 5%;
+	width: 60%;
+	height: 170px;
+	background-color: rgba(35, 35, 37, 0.6);
+
+}
+
+.home-jumbotron > div > .head > h2 {
+	font-size: 3.7em;
+}
+
+.home-jumbotron > div > .head > p {
+	font-weight: 100;
+}
+
+#home-email {
+	padding-left: 20px;
+	width: 60%;
+	height: 2.3em;
+	border: 1px solid;
+	border-top-left-radius: 6px;
+	border-bottom-left-radius: 6px;
+}
+
+#home-submit {
+	margin-left: -2px;
+	width: 20%;
+	height: 2.3em;
+	font-size: 0.96em;
+	font-weight: 300;
+	color: white;
+	background-color: rgb(91, 166, 229);
+	border: none;
+	border-top-right-radius: 6px;
+	border-bottom-right-radius: 6px;
+}
+
+#home-submit:hover {
+	opacity: 0.9;
 }
 
 .why-vermillion {
