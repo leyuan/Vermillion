@@ -93,7 +93,20 @@
 
 	<div class="home-row">
 		<div class="banner-link">
-			
+			<div class="head">
+				<div class="col-md-4">
+					<img src="assets/images/home-condo.png" alt="Home-Condo-Click" class="home-cta-img center" />
+					<h3 class="home-cta-text center white-font">Condo</h3>
+				</div>
+				<div class="col-md-4">
+					<img src="assets/images/home-floorplan.png" alt="Home-Condo-Click" class="home-cta-img center" />
+					<h3 class="home-cta-text center white-font">Floor Plans</h3>
+				</div>
+				<div class="col-md-4">
+					<img src="assets/images/home-neighbour.png" alt="Home-Condo-Click" class="home-cta-img center" />
+					<h3 class="home-cta-text center white-font">Neighbourhood</h3>
+				</div>
+			</div>
 		</div>
 	</div>
 

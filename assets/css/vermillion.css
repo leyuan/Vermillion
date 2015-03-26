@@ -1,6 +1,7 @@
 body {
-  padding-top: 50px;
-  font: 100%;
+	padding-top: 70px;
+	font: 100%;
+
 }
 
 div {
@@ -24,6 +25,10 @@ div {
 	display: block;
 	margin-left: auto;
 	margin-right: 0;
+}
+
+.float-right {
+	float: right;
 }
 
 .p-color {
@@ -66,6 +71,19 @@ div {
 
 .font-underline {
 	text-decoration: underline;
+}
+/** Navbar **/
+.navbar {
+	padding-top: 10px;
+	height: 70px;
+	font-size: 17px;
+
+	background-color: white;
+}
+
+.navbar-nav > li {
+	margin-left: 10px;
+	margin-right: 10px;
 }
 
 /** Shared Divs **/
@@ -164,8 +182,28 @@ div {
 }
 
 .banner-link {
+	padding-top: 40px;
+	padding-bottom: 40px;
 	background-color: rgb(91, 166, 229);
-	min-height: 300px;
+	background-image: url(../images/home-cta-bg.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+.home-cta-img, .home-cta-text {
+	width: 80%;
+}
+
+.home-cta-img {
+	max-width: 380px;
+}
+
+.home-cta-text {
+	font-weight: 300;
 }
 
 .home-contact {
