@@ -86,6 +86,14 @@ div {
 	margin-right: 10px;
 }
 
+.navbar-inverse .navbar-brand:hover, .navbar-inverse .navbar-brand:focus {
+	color: rgb(91, 166, 229);
+}
+
+.navbar-inverse .navbar-nav>li>a:hover, .navbar-inverse .navbar-nav>li>a:focus {
+	color: rgb(91, 166, 229);
+}
+
 /** Shared Divs **/
 .footer {
 	margin: 0;
@@ -220,6 +228,38 @@ div {
 .home-contact-btn {
 	background-color: rgb(91, 166, 229);
 }
+/** Sub Pages **/
+.sub-row {
+	min-height: 300px;
+}
+
+/** Team Page **/
+.team-headbanner {
+	padding-top: 60px;
+	background-color: rgb(91, 166, 229);
+}
+
+.team-headbanner > .container > .head > h2 {
+	font-size: 3.6em;
+}
+
+.team-headbanner > .container > .head > p {
+	font-size: 2.0em;
+	font-weight: 300;
+}
+
+.team-intro {
+	padding-top: 60px;
+	padding-bottom: 30px;
+}
+
+.team-intro > .container > .head > div {
+	margin-top: 20px;
+}
+
+.team-intro > .container > .head > div > h2 {
+	font-weight: 400;
+}
 
 /** Location Page **/
 .location-row {
@@ -243,4 +283,5 @@ div {
 .location-utilities {
 	background-color: rgb(240, 170, 43);
 }
+
 

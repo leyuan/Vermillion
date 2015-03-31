@@ -14,7 +14,7 @@
 				<li class="nav-neighbour"><a href="">Neighbourhood</a></li>
 				<li class="nav-homes"><a href="">Homes</a></li>
 				<li class="nav-Floorplans"><a href="">Floorplans</a></li>
-				<li class="nav-about"><a href="">About Developer</a></li>
+				<li class="nav-about"><a href="">Our Team</a></li>
 				<li class="nav-contact"><a href="">Contact Us</a></li>
 			</ul> 	 
 		</div><!--/.navbar-collapse -->
