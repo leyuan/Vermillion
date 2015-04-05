@@ -1,0 +1,135 @@
+body {
+	padding-top: 70px;
+	font: 100%;
+}
+
+div {
+	display: block;
+	/*overflow: hidden;*/
+}
+
+.left {
+	display: block;
+	margin-left: 0;
+	margin-right: auto;
+}
+
+.center {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.right {
+	display: block;
+	margin-left: auto;
+	margin-right: 0;
+}
+
+.float-right {
+	float: right;
+}
+
+.p-color {
+	color: rgb(91, 166, 229);
+}
+
+.r-color {
+	color: rgb(245, 158, 23);
+}
+
+.font-light {
+	font-weight: 300;
+}
+
+.p-btn {
+	display: block;
+	width: 150px;
+	height: 50px;
+	background-color: transparent;
+	color: rgb(91, 166, 229);
+	border-color: rgb(91, 166, 229);
+	border: 1px solid;
+	border-radius: 6px;
+	font-size: 1.1em;
+	box-shadow: none;
+}
+
+.p-btn:hover {
+	background-color: rgb(91, 166, 229);
+	color: white;
+}
+
+.default-font {
+	color: #5C5C5C;
+}
+
+.white-font {
+	color: white;
+}
+
+.font-underline {
+	text-decoration: underline;
+}
+/** Navbar **/
+.navbar {
+	padding-top: 10px;
+	height: 70px;
+	font-size: 17px;
+
+	background-color: white;
+}
+
+.navbar-nav > li {
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.navbar-inverse .navbar-brand:hover, .navbar-inverse .navbar-brand:focus {
+	color: rgb(91, 166, 229);
+}
+
+.navbar-inverse .navbar-nav>li>a:hover, .navbar-inverse .navbar-nav>li>a:focus {
+	color: rgb(91, 166, 229);
+}
+
+/** Shared Divs **/
+.footer {
+	margin: 0;
+	padding: 0;
+	height: 150px;
+	background-color: #333;
+}
+
+/** Neighbourhood Page **/
+.sub-row {
+	min-height: 300px;
+}
+
+/** Team Page **/
+.neighbourhood-banner {
+	padding-top: 60px;
+	background-color: rgb(91, 166, 229);
+	background-image: url("../images/neighbourhood-bg.png");
+}
+
+.banner-h2 {
+	font-size:3.6em;
+}
+
+.banner-p {
+	font-size: 2.0em;
+}
+
+.location, #map-canvas, .view {
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+.view-img {
+	width: 100%;
+}
+
+.shopping, .transportation, .future-dev {
+	margin-bottom: 40px;
+}

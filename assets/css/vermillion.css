@@ -1,7 +1,6 @@
 body {
 	padding-top: 70px;
 	font: 100%;
-
 }
 
 div {
@@ -296,27 +295,4 @@ div {
 	width: 90%;
 }
 
-/** Location Page **/
-.location-row {
-	padding-top: 60px;
-	padding-bottom: 60px;
-	min-height: 300px;
-}
-
-.location-jumbotron {
-	height: 480px;
-	background-color: none;
-	background-image: url(../images/bg1.jpg);
-	background-repeat: no-repeat;
-	background-position: center center;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
-}
-
-.location-utilities {
-	background-color: rgb(240, 170, 43);
-}
-
-
+/** Neighbourhood Page **/
