@@ -11,11 +11,11 @@
 		</div>
 		<div id="navbar" class="navbar-collapse collapse float-right">
 			<ul class="nav navbar-nav">
-		<li class="nav-neighbour"><a href="neighbourhood">Neighbourhood</a></li>
-				<li class="nav-homes"><a href="">Homes</a></li>
-				<li class="nav-Floorplans"><a href="">Floorplans</a></li>
-				<li class="nav-about"><a href="team">Our Team</a></li>
-				<li class="nav-contact"><a href="">Contact Us</a></li>
+		<li class="nav-item nav-neighbour active"><a href="neighbourhood">Neighbourhood</a></li>
+				<li class="nav-item nav-homes"><a href="">Homes</a></li>
+				<li class="nav-item nav-Floorplans"><a href="">Floorplans</a></li>
+				<li class="nav-item nav-about"><a href="team">Our Team</a></li>
+				<li class="nav-item nav-contact"><a href="">Contact Us</a></li>
 			</ul> 	 
 		</div><!--/.navbar-collapse -->
 	</div>

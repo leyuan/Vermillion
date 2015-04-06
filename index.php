@@ -68,22 +68,22 @@
 	</div>
 
 	<div class="home-row">
-		<div class="container center text-center v-advantage">
+		<div class="container center text-left v-advantage">
 			<div class="head">
 				<div class="col-md-4">
-				  <h2 class="p-color font-light">Customizable</h2>
+				  <h2 class="p-color text-center font-light">Customizable</h2>
 				  <p class="default-font font-light">Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
 				  <!-- <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p> -->
 				</div>
 
 				<div class="col-md-4">
-				  <h2 class="p-color font-light">Affordable</h2>
+				  <h2 class="p-color text-center font-light">Affordable</h2>
 				  <p class="default-font font-light">Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
 				  <!-- <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p> -->
 			   </div>
 
 				<div class="col-md-4">
-				  <h2 class="p-color font-light">Elegant</h2>
+				  <h2 class="p-color text-center font-light">Elegant</h2>
 				  <p class="default-font font-light">Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
 				  <!-- <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p> -->
 				</div>
@@ -95,16 +95,22 @@
 		<div class="banner-link">
 			<div class="head">
 				<div class="col-md-4">
-					<img src="assets/images/home-condo.png" alt="Home-Condo-Click" class="home-cta-img center" />
-					<h3 class="home-cta-text center white-font">Condo</h3>
+					<a href="homes">
+						<img src="assets/images/home-condo.png" alt="Home-Condo-Click" class="home-cta-img center" />
+						<h3 class="home-cta-text center white-font">Condo</h3>
+					</a>
 				</div>
 				<div class="col-md-4">
-					<img src="assets/images/home-floorplan.png" alt="Home-Condo-Click" class="home-cta-img center" />
-					<h3 class="home-cta-text center white-font">Floor Plans</h3>
+					<a href="floorplan">
+						<img src="assets/images/home-floorplan.png" alt="Home-Condo-Click" class="home-cta-img center" />
+						<h3 class="home-cta-text center white-font">Floor Plans</h3>
+					</a>
 				</div>
 				<div class="col-md-4">
-					<img src="assets/images/home-neighbour.png" alt="Home-Condo-Click" class="home-cta-img center" />
-					<h3 class="home-cta-text center white-font">Neighbourhood</h3>
+					<a href="neighbourhood">
+						<img src="assets/images/home-neighbour.png" alt="Home-Condo-Click" class="home-cta-img center" />
+						<h3 class="home-cta-text center white-font">Neighbourhood</h3>
+					</a>
 				</div>
 			</div>
 		</div>
@@ -127,14 +133,5 @@
 	<?php
 		include_once("footer.php");
 	?>
-
-
-	<!-- Bootstrap core JavaScript
-	================================================== -->
-	<!-- Placed at the end of the document so the pages load faster -->
-	<script src="assets/js/jquery.min.js"></script>
-	<script src="assets/js/bootstrap.min.js"></script>
-	<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-	<script src="assets/js/ie10-viewport-bug-workaround.js"></script>
   </body>
 </html>
