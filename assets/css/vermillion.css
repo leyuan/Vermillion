@@ -312,4 +312,138 @@ div {
 	width: 90%;
 }
 
-/** Neighbourhood Page **/
+/** Floorplan Page **/
+.fp-headbanner {
+	height: 400px;
+	background-color: rgb(91, 166, 229);
+	background-image: url("../images/fp-banner.png");
+	background-repeat: no-repeat;
+	background-position: center center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+.blue-overlay {
+	height: 400px;
+	padding-top: 120px;
+	background-color: rgba(91, 166, 229, 0.8);
+}
+
+.blue-overlay > h2 {
+	font-size: 3.6em;
+}
+
+.blue-overlay > p {
+	font-size: 2.0em;
+	font-weight: 300;
+}
+
+.fp-fp-container {
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+
+.floor-img {
+	position: relative;
+	width: 100%;
+}
+
+.main-row-one, .main-row-two, .main-row-three {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 33%;
+}
+
+.main-row-two {
+	top: 33%;
+}
+
+.main-row-three {
+	top: 66%;
+}
+
+.main-label > span {
+	position: absolute;
+	width: 20%;
+	height: 100%;
+}
+
+.col-one {
+	left: 0;
+}
+
+.col-two {
+	left: 20%;
+}
+
+.col-three {
+	left: 40%;
+}
+
+.col-four {
+	left: 60%;
+}
+
+.col-five {
+	left: 80%;
+}
+
+.status-available {
+	display: inline-block;
+	width: 12px;
+	height: 12px;
+	background-color: rgb(91, 166, 229);
+	border-radius: 50%;
+}
+
+/*main floor row one*/
+.main-row-one > span > p {
+	position: absolute;
+	margin-top: 40%;
+	width: 100%;
+	text-align: center;
+}
+
+.main-row-one > .col-two {
+	padding-left: 2%;
+}
+
+.main-row-one > .col-four > p {
+	padding-right: 30%;
+}
+
+.main-row-one > .col-five > p {
+	padding-right: 50%;
+}
+
+/*main floor row two*/
+.main-row-two > span > p {
+	position: absolute;
+	margin-top: 25%;
+	width: 100%;
+	text-align: center;
+}
+
+.main-row-two > .col-five > p {
+	padding-right: 40%;
+}
+
+/*main floor row three*/
+.main-row-three > span > p {
+	position: absolute;
+	margin-top: 21%;
+	width: 100%;
+	text-align: center;
+}
+
+.main-row-three > .col-one > p {
+	padding-left: 30%;
+}
+
+.main-row-three > .col-five > p {
+	padding-right: 35%;
+}
