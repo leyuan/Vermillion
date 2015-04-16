@@ -8,6 +8,10 @@ div {
 	overflow: hidden;
 }
 
+a:hover, a:focus {
+	color: rgb(91, 166, 229);
+}
+
 .left {
 	display: block;
 	margin-left: 0;
@@ -345,12 +349,48 @@ div {
 	padding-bottom: 40px;
 }
 
+.floor-selector-container {
+	padding-top: 30px;
+}
+
+.floor-selector-container > ul {
+	list-style-type: none;
+}
+
+.floor-selector-container > ul > li {
+	margin-bottom: 30px;
+}
+
+.floor-selector {
+	cursor: pointer;
+	font-size: 1.5em;
+	color: #999999;
+}
+
+.floor-selector.active {
+	color: black;
+	text-decoration: underline;
+}
+
+.main-container,
+.second-container, 
+.third-container, 
+.fourth-container, 
+.fifth-container, 
+.sixth-container {
+	display: none;
+}
+
+.floor-img-container.active {
+	display: block;
+}
+
 .floor-img {
 	position: relative;
 	width: 100%;
 }
 
-.main-row-one, .main-row-two, .main-row-three {
+.label-row {
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -358,15 +398,15 @@ div {
 	height: 33%;
 }
 
-.main-row-two {
+.row-two {
 	top: 33%;
 }
 
-.main-row-three {
+.row-three {
 	top: 66%;
 }
 
-.main-label > span {
+.text-label > span {
 	position: absolute;
 	width: 20%;
 	height: 100%;
