@@ -174,5 +174,5 @@
 
 
 		google.maps.event.addDomListener(window, 'load', initialize);
-		</script>
-  </html>
+	</script>
+</html>

@@ -480,7 +480,7 @@ a:hover, a:focus {
 	text-align: center;
 }
 
-.main-row-three > .col-one > p {
+.col-one > p {
 	padding-left: 30%;
 }
 
