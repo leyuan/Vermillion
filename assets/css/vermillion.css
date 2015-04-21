@@ -487,3 +487,57 @@ a:hover, a:focus {
 .main-row-three > .col-five > p {
 	padding-right: 35%;
 }
+
+.suite-clickable:hover {
+	cursor: pointer;
+	text-decoration: underline;
+}
+
+/*Suite Intro Section*/
+.suite-intro-container {
+	padding-top: 60px;
+}
+
+.suite-text-container {
+	padding-left: 50px;
+}
+
+.suite-type {
+	display: inline-block;
+	padding-left: 20px;
+	padding-top: 10px;
+	padding-right: 20px;
+	padding-bottom: 10px;
+	color: white;
+	background: rgb(91, 166, 229);
+	font-weight: 300;
+	font: 1.5em;
+}
+
+.room-availability {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.suite-recommendation {
+	font-size: 1.3em;
+}
+
+.floor-recommendation {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.main-text {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.suite-number {
+	padding-left: 50px;
+}
+
+
+.suite-image {
+	width: 90%;
+}

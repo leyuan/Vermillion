@@ -67,7 +67,7 @@
 						<span class="col-one">
 						</span>
 						<span class="col-two">
-							<p>
+							<p class="suite-clickable" date-suite="104">
 								<span class="status-available"></span>  104 <br />
 								SUITE B2 <br />
 								970 SQ. FT.
@@ -214,14 +214,14 @@
 						</span>
 						<span class="col-four">
 							<p>
-								<span class="status-available"></span>  2011 <br />
+								<span class="status-available"></span>  211 <br />
 								SUITE B <br />
 								807 SQ. FT.
 							</p>
 						</span>
 						<span class="col-five">
 							<p>
-								<span class="status-available"></span>  2010 <br />
+								<span class="status-available"></span>  210 <br />
 								SUITE C4 <br />
 								970 SQ. FT.
 							</p>
@@ -247,14 +247,14 @@
 						</span>
 						<span class="col-four">
 							<p>
-								<span class="status-available"></span>  2013 <br />
+								<span class="status-available"></span>  213 <br />
 								SUITE C <br />
 								1085 SQ. FT.
 							</p>
 						</span>
 						<span class="col-five">
 							<p>
-								<span class="status-available"></span>  2012 <br />
+								<span class="status-available"></span>  212 <br />
 								SUITE C <br />
 								1085 SQ. FT.
 							</p>
@@ -321,14 +321,14 @@
 						</span>
 						<span class="col-four">
 							<p>
-								<span class="status-available"></span>  3011 <br />
+								<span class="status-available"></span>  311 <br />
 								SUITE D1 <br />
 								807 SQ. FT.
 							</p>
 						</span>
 						<span class="col-five">
 							<p>
-								<span class="status-available"></span>  3010 <br />
+								<span class="status-available"></span>  310 <br />
 								SUITE B <br />
 								970 SQ. FT.
 							</p>
@@ -354,14 +354,14 @@
 						</span>
 						<span class="col-four">
 							<p>
-								<span class="status-available"></span>  3013 <br />
+								<span class="status-available"></span>  313 <br />
 								SUITE C <br />
 								1085 SQ. FT.
 							</p>
 						</span>
 						<span class="col-five">
 							<p>
-								<span class="status-available"></span>  110 <br />
+								<span class="status-available"></span>  310 <br />
 								SUITE C <br />
 								1085 SQ. FT.
 							</p>
@@ -371,12 +371,28 @@
 			</div>			
 		</div>
 
-		<div class="sub-row suite-intro-container">
-			<div class="col-md-5">
-				
+		<div class="sub-row suite-intro-container" id="suite-section">
+			<div class="col-md-5 default-font suite-text-container">
+				<h4 class="suite-type">SUITE B</h4>
+				<p class="room-availability">Main  109 : Available</p>
+				<p class="room-bath"> 2 Bedrooms | 2 Baths </p>
+				<p class="main-text">
+				749(suite) + 303(balcony) = 1052 FT&sup2; total | The Passionate is a two bedroom
+				suite with a modern sliding privatcy glass wall in both bedrooms which open up the space
+				during the day. An expandable island table transfroms the spcae for easy entertaining.
+				The large balcony brings entertaining outdoors too! Choose from a variety of module and a 
+				la carte options to transform this space to suit your lifestyle.
+				</p>
+				<h4 class="suite-recommendation">Recommendation</h4>
+				<p class="floor-recommendation">6th Floor <span class="suite-number">601 605 611</span></p>
+				<p class="floor-recommendation">5th Floor <span class="suite-number"></span></p>
+				<p class="floor-recommendation">4th Floor <span class="suite-number">401 405 410 411</span></p>
+				<p class="floor-recommendation">3th Floor <span class="suite-number">307</span></p>
+				<p class="floor-recommendation">2th Floor <span class="suite-number">201 209</span></p>
+				<p class="floor-recommendation">1th Floor <span class="suite-number">102 109 110</span></p>
 			</div>
 			<div class="col-md-7">
-				
+				<img src="assets/images/suite-A.png" alt="Suite-A-Image" class="center suite-image">
 			</div>
 		</div>
 
@@ -384,7 +400,7 @@
 			include_once("footer.php");
 		?>
 	</body>
-
+	<script src="assets/js/jquery.min.js"></script>
 	<script type="text/javascript">
 		var selector_class = document.getElementsByClassName("floor-selector");
 
@@ -424,4 +440,22 @@
 			}, false);
 		}
 	</script>
+	<script>
+		var suiteInfo = {
+			main: {
+				101: ['C', 1065],
+				102: ['A', 1420],
+				103: ['D', 841],
+				104: ['B2', 970],
+				105: ['B', 970],
+				106: ['B', 970],
+				107: ['E', 686],
+				108: ['C4', 1065],
+				109: ['B', 970],
+				110: ['C', 1065],
+				111: ['C', 1065]
+			}
+		};
+	</script>
+	<script src="assets/js/temp.js"></script>
   </html>
