@@ -67,8 +67,9 @@
 						<span class="col-one">
 						</span>
 						<span class="col-two">
-							<p class="suite-clickable" date-suite="104">
-								<span class="status-available"></span>  104 <br />
+							<p class="suite-clickable">
+								<span class="status-available"></span>  
+								<span class="suite-number">104</span> <br />
 								SUITE B2 <br />
 								970 SQ. FT.
 							</p>
@@ -373,8 +374,8 @@
 
 		<div class="sub-row suite-intro-container" id="suite-section">
 			<div class="col-md-5 default-font suite-text-container">
-				<h4 class="suite-type">SUITE B</h4>
-				<p class="room-availability">Main  109 : Available</p>
+				<h4 class="suite-type" id="suite-type">SUITE B</h4>
+				<p class="room-availability" id="room-availability">Main  109 : Available</p>
 				<p class="room-bath"> 2 Bedrooms | 2 Baths </p>
 				<p class="main-text">
 				749(suite) + 303(balcony) = 1052 FT&sup2; total | The Passionate is a two bedroom
@@ -384,12 +385,12 @@
 				la carte options to transform this space to suit your lifestyle.
 				</p>
 				<h4 class="suite-recommendation">Recommendation</h4>
-				<p class="floor-recommendation">6th Floor <span class="suite-number">601 605 611</span></p>
-				<p class="floor-recommendation">5th Floor <span class="suite-number"></span></p>
-				<p class="floor-recommendation">4th Floor <span class="suite-number">401 405 410 411</span></p>
-				<p class="floor-recommendation">3th Floor <span class="suite-number">307</span></p>
-				<p class="floor-recommendation">2th Floor <span class="suite-number">201 209</span></p>
-				<p class="floor-recommendation">1th Floor <span class="suite-number">102 109 110</span></p>
+				<p class="floor-recommendation">6th Floor <span class="suite-recommendation-number">601 605 611</span></p>
+				<p class="floor-recommendation">5th Floor <span class="suite-recommendation-number"></span></p>
+				<p class="floor-recommendation">4th Floor <span class="suite-recommendation-number">401 405 410 411</span></p>
+				<p class="floor-recommendation">3th Floor <span class="suite-recommendation-number">307</span></p>
+				<p class="floor-recommendation">2th Floor <span class="suite-recommendation-number">201 209</span></p>
+				<p class="floor-recommendation">1th Floor <span class="suite-recommendation-number">102 109 110</span></p>
 			</div>
 			<div class="col-md-7">
 				<img src="assets/images/suite-A.png" alt="Suite-A-Image" class="center suite-image">
@@ -442,11 +443,11 @@
 	</script>
 	<script>
 		var suiteInfo = {
-			main: {
+			Main: {
 				101: ['C', 1065],
 				102: ['A', 1420],
 				103: ['D', 841],
-				104: ['B2', 970],
+				104: ['Suite B2', 970],
 				105: ['B', 970],
 				106: ['B', 970],
 				107: ['E', 686],
