@@ -68,29 +68,40 @@
 						</span>
 						<span class="col-two">
 							<p class="suite-clickable">
-								<span class="status-available"></span>  
-								<span class="suite-number">104</span> <br />
+								<span>
+									<span class="status-available"></span>
+									<span class="suite-number">104</span>
+								</span><br />
 								SUITE B2 <br />
 								970 SQ. FT.
 							</p>
 						</span>
 						<span class="col-three">
-							<p>
-								<span class="status-available"></span>  105 <br />
+							<p class="suite-clickable">
+								<span>
+									<span class="status-available"></span> 
+									<span class="suite-number">105</span>
+								</span><br />
 								SUITE B <br />
 								970 SQ. FT.
 							</p>
 						</span>
 						<span class="col-four">
-							<p>
-								<span class="status-available"></span>  106 <br />
+							<p class="suite-clickable">
+								<span>
+									<span class="status-available"></span> 
+									<span class="suite-number">106</span>
+								</span><br />
 								SUITE B <br />
 								970 SQ. FT.
 							</p>
 						</span>
 						<span class="col-five">
-							<p>
-								<span class="status-available"></span>  108 <br />
+							<p class="suite-clickable">
+								<span>
+									<span class="status-available"></span> 
+									<span class="suite-number">108</span>
+								</span><br />
 								SUITE C4 <br />
 								1085 SQ. FT.
 							</p>
@@ -100,56 +111,77 @@
 						<span class="col-one">
 						</span>
 						<span class="col-two">
-							<p>
-								<span class="status-available"></span>  103 <br />
-								SUITE B2 <br />
-								970 SQ. FT.
+							<p class="suite-clickable"> 
+								<span>
+									<span class="status-available"></span>
+									<span class="suite-number">103</span>
+								</span><br />
+								SUITE D <br />
+								841 SQ. FT.
 							</p>
 						</span>
 						<span class="col-four">
-							<p>
-								<span class="status-available"></span>  107 <br />
-								SUITE B <br />
-								970 SQ. FT.
+							<p class="suite-clickable">
+								<span>
+									<span class="status-available"></span>
+									<span class="suite-number">107</span>
+								</span><br />
+								SUITE E <br />
+								686 SQ. FT.
 							</p>
 						</span>
-						<span class="col-five">
-							<p>
-								<span class="status-available"></span>  109 <br />
-								SUITE C4 <br />
-								1085 SQ. FT.
+						<span class="col-five"><p class="suite-clickable">
+							<p class="suite-clickable"> 
+								<span>
+									<span class="status-available"></span>
+									<span class="suite-number">109</span>
+								</span><br />
+								SUITE B <br />
+								970 SQ. FT.
 							</p>
 						</span>
 					</div>
 					<div class="text-label label-row row-three main-row-three">
 						<span class="col-one">
-							<p>
-								<span class="status-available"></span>  102 <br />
-								SUITE B2 <br />
-								970 SQ. FT.
+							<p class="suite-clickable">
+								<span>
+									<span class="status-available"></span>
+									<span class="suite-number">102</span>
+								</span><br />
+								SUITE A <br />
+								1420 SQ. FT.
 							</p>
 						</span>
 						<span class="col-two">
-							<p>
-								<span class="status-available"></span>  101 <br />
-								SUITE B2 <br />
-								970 SQ. FT.
+							<p class="suite-clickable active">
+								<span>
+									<span class="status-available"></span>
+									<span class="suite-number">101</span>
+								</span><br/>
+								SUITE C <br />
+								1085 SQ. FT.
 							</p>
 						</span>
 						<span class="col-three">
 							
 						</span>
 						<span class="col-four">
-							<p>
-								<span class="status-available"></span>  111 <br />
-								SUITE B <br />
-								970 SQ. FT.
+							<p class="suite-clickable">
+								<span>
+									<span class="status-available"></span>
+									<span class="suite-number">111</span>
+								</span><br />
+								SUITE C <br />
+								1085 SQ. FT.
 							</p>
 						</span>
 						<span class="col-five">
-							<p>
-								<span class="status-available"></span>  110 <br />
-								SUITE C4 <br />
+							<p class="suite-clickable">
+								<span>	
+									<span class="status-available"></span>
+									<span class="suite-number">110</span>
+								</span><br />
+								SUITE C <br />
 								1085 SQ. FT.
 							</p>
 						</span>
@@ -163,36 +195,51 @@
 					<img src="assets/images/second-floor.png" alt="Second floor Image" class="floor-img" />
 					<div class="text-label label-row row-one main-row-one">
 						<span class="col-one">
-							<p>
-								<span class="status-available"></span>  205 <br />
+							<p class="suite-clickable">
+								<span>
+									<span class="status-available"></span>
+									<span class="suite-number">205</span>
+								</span><br />
 								SUITE C1 <br />
 								1077 SQ. FT.
 							</p>
 						</span>
 						<span class="col-two">
-							<p>
-								<span class="status-available"></span>  206 <br />
+							<p class="suite-clickable">
+								<span>
+									<span class="status-available"></span>
+									<span class="suite-number">206</span>
+								</span><br />
 								SUITE B2 <br />
 								970 SQ. FT.
 							</p>
 						</span>
 						<span class="col-three">
-							<p>
-								<span class="status-available"></span>  207 <br />
+							<p class="suite-clickable">
+								<span>
+									<span class="status-available"></span>
+									<span class="suite-number">207</span>
+								</span><br />
 								SUITE B <br />
 								970 SQ. FT.
 							</p>
 						</span>
 						<span class="col-four">
-							<p>
-								<span class="status-available"></span>  208 <br />
+							<p class="suite-clickable">
+								<span>
+									<span class="status-available"></span>
+									<span class="suite-number">208</span>
+								</span><br />
 								SUITE B <br />
 								970 SQ. FT.
 							</p>
 						</span>
 						<span class="col-five">
-							<p>
-								<span class="status-available"></span>  209 <br />
+							<p class="suite-clickable">
+								<span>
+									<span class="status-available"></span>
+									<span class="suite-number">209</span>
+								</span><br />
 								SUITE C4 <br />
 								1085 SQ. FT.
 							</p>
@@ -200,45 +247,63 @@
 					</div>
 					<div class="text-label label-row row-two main-row-two">
 						<span class="col-one">
-							<p>
-								<span class="status-available"></span>  204 <br />
+							<p class="suite-clickable">
+								<span>
+									<span class="status-available"></span>
+									<span class="suite-number">204</span>
+								</span><br />
 								SUITE B <br />
 								970 SQ. FT.
 							</p>
 						</span>
 						<span class="col-two">
-							<p>
-								<span class="status-available"></span>  203 <br />
+							<p class="suite-clickable">
+								<span>
+									<span class="status-available"></span>
+									<span class="suite-number">203</span>
+								</span><br />
 								SUITE D <br />
 								841 SQ. FT.
 							</p>
 						</span>
 						<span class="col-four">
-							<p>
-								<span class="status-available"></span>  211 <br />
-								SUITE B <br />
+							<p class="suite-clickable">
+								<span>
+									<span class="status-available"></span>
+									<span class="suite-number">211</span>
+								</span><br />
+								SUITE D1 <br />
 								807 SQ. FT.
 							</p>
 						</span>
 						<span class="col-five">
-							<p>
-								<span class="status-available"></span>  210 <br />
-								SUITE C4 <br />
+							<p class="suite-clickable">
+								<span>
+									<span class="status-available"></span>
+									<span class="suite-number">210</span>
+								</span><br />
+								SUITE B <br />
 								970 SQ. FT.
 							</p>
 						</span>
 					</div>
 					<div class="text-label label-row row-three main-row-three">
 						<span class="col-one">
-							<p>
-								<span class="status-available"></span>  202 <br />
+							<p class="suite-clickable">
+								<span>
+									<span class="status-available"></span>
+									<span class="suite-number">202</span>
+								</span><br />
 								SUITE C <br />
 								1085 SQ. FT.
 							</p>
 						</span>
 						<span class="col-two">
-							<p>
-								<span class="status-available"></span>  201 <br />
+							<p class="suite-clickable">
+								<span>
+									<span class="status-available"></span>
+									<span class="suite-number">201</span>
+								</span><br />
 								SUITE C <br />
 								1085 SQ. FT.
 							</p>
@@ -247,15 +312,21 @@
 							
 						</span>
 						<span class="col-four">
-							<p>
-								<span class="status-available"></span>  213 <br />
+							<p class="suite-clickable">
+								<span>
+									<span class="status-available"></span>
+									<span class="suite-number">213</span>
+								</span><br />
 								SUITE C <br />
 								1085 SQ. FT.
 							</p>
 						</span>
 						<span class="col-five">
-							<p>
-								<span class="status-available"></span>  212 <br />
+							<p class="suite-clickable">
+								<span>
+									<span class="status-available"></span>
+									<span class="suite-number">212</span>
+								</span><br />
 								SUITE C <br />
 								1085 SQ. FT.
 							</p>
@@ -270,36 +341,51 @@
 					<img src="assets/images/third-floor.png" alt="Third floor Image" class="floor-img" />
 					<div class="text-label label-row row-one main-row-one">
 						<span class="col-one">
-							<p>
-								<span class="status-available"></span>  305 <br />
+							<p class="suite-clickable">
+								<span>
+									<span class="status-available"></span>
+									<span class="suite-number">305</span>
+								</span><br />
 								SUITE C1 <br />
 								1077 SQ. FT.
 							</p>
 						</span>
 						<span class="col-two">
-							<p>
-								<span class="status-available"></span>  306 <br />
+							<p class="suite-clickable">
+								<span>
+									<span class="status-available"></span>
+									<span class="suite-number">306</span>
+								</span><br />
 								SUITE B2 <br />
 								970 SQ. FT.
 							</p>
 						</span>
 						<span class="col-three">
-							<p>
-								<span class="status-available"></span>  307 <br />
+							<p class="suite-clickable">
+								<span>
+									<span class="status-available"></span>
+									<span class="suite-number">307</span>
+								</span><br />
 								SUITE B <br />
 								970 SQ. FT.
 							</p>
 						</span>
 						<span class="col-four">
-							<p>
-								<span class="status-available"></span>  308 <br />
+							<p class="suite-clickable">
+								<span>
+									<span class="status-available"></span>
+									<span class="suite-number">308</span>
+								</span><br />
 								SUITE B <br />
 								970 SQ. FT.
 							</p>
 						</span>
 						<span class="col-five">
-							<p>
-								<span class="status-available"></span>  309 <br />
+							<p class="suite-clickable">
+								<span>
+									<span class="status-available"></span>
+									<span class="suite-number">309</span>
+								</span><br />
 								SUITE C4 <br />
 								1085 SQ. FT.
 							</p>
@@ -307,29 +393,41 @@
 					</div>
 					<div class="text-label label-row row-two main-row-two">
 						<span class="col-one">
-							<p>
-								<span class="status-available"></span>  304 <br />
+							<p class="suite-clickable">
+								<span>
+									<span class="status-available"></span>
+									<span class="suite-number">304</span>
+								</span><br />
 								SUITE B <br />
 								970 SQ. FT.
 							</p>
 						</span>
 						<span class="col-two">
-							<p>
-								<span class="status-available"></span>  303 <br />
+							<p class="suite-clickable">
+								<span>
+									<span class="status-available"></span>
+									<span class="suite-number">303</span>
+								</span><br />
 								SUITE D <br />
 								841 SQ. FT.
 							</p>
 						</span>
 						<span class="col-four">
-							<p>
-								<span class="status-available"></span>  311 <br />
+							<p class="suite-clickable">
+								<span>
+									<span class="status-available"></span>
+									<span class="suite-number">311</span>
+								</span><br />
 								SUITE D1 <br />
 								807 SQ. FT.
 							</p>
 						</span>
 						<span class="col-five">
-							<p>
-								<span class="status-available"></span>  310 <br />
+							<p class="suite-clickable">
+								<span>
+									<span class="status-available"></span>
+									<span class="suite-number">310</span>
+								</span><br />
 								SUITE B <br />
 								970 SQ. FT.
 							</p>
@@ -337,32 +435,44 @@
 					</div>
 					<div class="text-label label-row row-three main-row-three">
 						<span class="col-one">
-							<p>
-								<span class="status-available"></span>  302 <br />
+							<p class="suite-clickable">
+								<span>
+									<span class="status-available"></span>
+									<span class="suite-number">302</span>
+								</span><br />
 								SUITE C <br />
 								1085 SQ. FT.
 							</p>
 						</span>
 						<span class="col-two">
-							<p>
-								<span class="status-available"></span>  303 <br />
-								SUITE D <br />
-								841 SQ. FT.
+							<p class="suite-clickable">
+								<span>
+									<span class="status-available"></span>
+									<span class="suite-number">301</span>
+								</span><br />
+								SUITE C <br />
+								1085 SQ. FT.
 							</p>
 						</span>
 						<span class="col-three">
 							
 						</span>
 						<span class="col-four">
-							<p>
-								<span class="status-available"></span>  313 <br />
+							<p class="suite-clickable">
+								<span>
+									<span class="status-available"></span>
+									<span class="suite-number">313</span>
+								</span><br />
 								SUITE C <br />
 								1085 SQ. FT.
 							</p>
 						</span>
 						<span class="col-five">
-							<p>
-								<span class="status-available"></span>  310 <br />
+							<p class="suite-clickable">
+								<span>
+									<span class="status-available"></span>
+									<span class="suite-number">312</span>
+								</span><br />
 								SUITE C <br />
 								1085 SQ. FT.
 							</p>
@@ -374,8 +484,8 @@
 
 		<div class="sub-row suite-intro-container" id="suite-section">
 			<div class="col-md-5 default-font suite-text-container">
-				<h4 class="suite-type" id="suite-type">SUITE B</h4>
-				<p class="room-availability" id="room-availability">Main  109 : Available</p>
+				<h4 class="suite-type" id="suite-type">SUITE-C</h4>
+				<p class="room-availability" id="room-availability">Main  101 : Available</p>
 				<p class="room-bath"> 2 Bedrooms | 2 Baths </p>
 				<p class="main-text">
 				749(suite) + 303(balcony) = 1052 FT&sup2; total | The Passionate is a two bedroom
@@ -393,7 +503,7 @@
 				<p class="floor-recommendation">1th Floor <span class="suite-recommendation-number">102 109 110</span></p>
 			</div>
 			<div class="col-md-7">
-				<img src="assets/images/suite-A.png" alt="Suite-A-Image" class="center suite-image">
+				<img src="assets/images/suite-A.png" alt="Suite-A-Image" class="center suite-image" id="suite-image">
 			</div>
 		</div>
 
@@ -402,61 +512,90 @@
 		?>
 	</body>
 	<script src="assets/js/jquery.min.js"></script>
-	<script type="text/javascript">
-		var selector_class = document.getElementsByClassName("floor-selector");
+	<script>
+		$(".floor-selector").click(function(event) {
+			if( !this.className.match('active') ) {
+				// not match, switch image
+				$('.floor-selector.active').removeClass('active');
+				$(this).addClass('active');
 
-		for ( var i = 0; i < selector_class.length; i ++ ) {
-			selector_class[i].addEventListener('click', function(){
-				// console.log( this.className );
-				if( !this.className.match('active') ) {
-					// console.log( 'not active' );
+				target_floor = this.getAttribute('data-floor');
 
-					// de-activate the current one
-					for ( var t = 0; t < selector_class.length; t++ ) {
-						if( selector_class[t].className.match('active') ) {
-							selector_class[t].classList.remove('active');
-						}
-					}
-
-					// hide the current floor div
-					var f = document.getElementsByClassName('floor-img-container');
-					// console.log( f );
-					for ( var d = 0; d < f.length; d++ ) {
-						if( f[d].className.match('active') ) {
-							f[d].classList.remove("active");
-						}
-					} 
-
-					// active the current one
-					this.classList.add('active');
-
-					// show the corresponding floor div
-					var corres_floor = this.getAttribute('data-floor');
-					for ( var d = 0; d < f.length; d++ ) {
-						if( f[d].className.match(corres_floor) ) {
-							f[d].classList.add("active");
-						}
-					} 
-				}
-			}, false);
-		}
+				// current image fade out
+				$('.floor-img-container.active').fadeOut('slow', function() {
+					$('.floor-img-container.active').removeClass('active');
+					// selected image fade in
+					
+					console.log( target_floor );
+					$('.'+target_floor).fadeIn('slow', function() {
+						$('.'+target_floor).addClass('active');
+					});
+				});
+			}
+		});
 	</script>
 	<script>
-		var suiteInfo = {
-			Main: {
-				101: ['C', 1065],
-				102: ['A', 1420],
-				103: ['D', 841],
+		//floorInfo Signature
+		//['Suite name', (BOOL)'Available-status']
+
+		var floorInfo = {
+			"Main": {
+				101: ['Suite C', 1065],
+				102: ['Suite A', 1420],
+				103: ['Suite D', 841],
 				104: ['Suite B2', 970],
-				105: ['B', 970],
-				106: ['B', 970],
-				107: ['E', 686],
-				108: ['C4', 1065],
-				109: ['B', 970],
-				110: ['C', 1065],
-				111: ['C', 1065]
+				105: ['Suite B', 970],
+				106: ['Suite B', 970],
+				107: ['Suite E', 686],
+				108: ['Suite C4', 1065],
+				109: ['Suite B', 970],
+				110: ['Suite C', 1065],
+				111: ['Suite C', 1065]
+			},
+			"2nd": {
+				201: ['Suite C'],
+				202: ['Suite C'],
+				203: ['Suite D'],
+				204: ['Suite B'],
+				205: ['Suite C1'],
+				206: ['Suite B2'],
+				207: ['Suite B'],
+				208: ['Suite B'],
+				209: ['Suite C4'],
+				210: ['Suite B'],
+				211: ['Suite D1'],
+				212: ['Suite C'],
+				213: ['Suite C']
+			},
+			"3rd": {
+				301: ['Suite C'],
+				302: ['Suite C'],
+				303: ['Suite D'],
+				304: ['Suite B'],
+				305: ['Suite C1'],
+				306: ['Suite B2'],
+				307: ['Suite B'],
+				308: ['Suite B'],
+				309: ['Suite C4'],
+				310: ['Suite B'],
+				311: ['Suite D1'],
+				312: ['Suite C'],
+				313: ['Suite C']
 			}
 		};
+
+		//suiteInfo Signature
+		//['img-name','suite-size', 'suite-image', bedroom-bath-room']
+		var suiteInfo = {
+			'Suite A': ['Suite-A', 1420, 'assets/images/suite-A.png'],
+			'Suite B': ['Suite-B', 970, 'assets/images/suite-B.png'],
+			'Suite B2': ['Suite-B2', 970, 'assets/images/suite-B.png'],
+			'Suite C': ['Suite-C', 1065, 'assets/images/suite-c.png'],
+			'Suite C1': ['Suite-C1', 1065, 'assets/images/suite-C.png'],
+			'Suite C4': ['Suite-C4', 1065, 'assets/images/suite-C.png'],
+			'Suite D': ['Suite-D', 841, 'assets/images/suite-D.png'],
+			'Suite E': ['Suite-E', 686, 'assets/images/suite-E.png']
+		}
 	</script>
 	<script src="assets/js/temp.js"></script>
   </html>
