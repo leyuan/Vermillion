@@ -1,5 +1,6 @@
+@import url('http://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.css');
 body {
-	padding-top: 70px;
+	/*padding-top: 70px;*/
 	font: 100%;
 }
 
@@ -9,7 +10,17 @@ div {
 }
 
 a:hover, a:focus {
-	color: rgb(91, 166, 229);
+	color: #BC1A1A;
+}
+
+p {
+	font-size: 14px;
+}
+/*Bootstrap Overwrite*/
+
+/*Class Shortcuts*/
+.hidden {
+	display: none;
 }
 
 .left {
@@ -35,7 +46,7 @@ a:hover, a:focus {
 }
 
 .p-color {
-	color: rgb(91, 166, 229);
+	color: #BC1A1A;
 }
 
 .r-color {
@@ -51,8 +62,8 @@ a:hover, a:focus {
 	width: 150px;
 	height: 50px;
 	background-color: transparent;
-	color: rgb(91, 166, 229);
-	border-color: rgb(91, 166, 229);
+	color: #BC1A1A;
+	border-color: #BC1A1A;
 	border: 1px solid;
 	border-radius: 6px;
 	font-size: 1.1em;
@@ -60,7 +71,7 @@ a:hover, a:focus {
 }
 
 .p-btn:hover {
-	background-color: rgb(91, 166, 229);
+	background-color: #BC1A1A;
 	color: white;
 }
 
@@ -77,10 +88,13 @@ a:hover, a:focus {
 }
 /** Navbar **/
 .navbar {
+	position: absolute;
+    z-index: 1;
 	padding-top: 10px;
+    width: 100%;
 	height: 70px;
 	font-size: 17px;
-	background-color: white;
+	background-color: transparent;
 }
 
 .navbar-nav > li {
@@ -88,12 +102,25 @@ a:hover, a:focus {
 	margin-right: 10px;
 }
 
+.navbar-inverse {
+	margin-top: 25px;
+	border-color: transparent;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+    color: white;
+}
+
+.navbar-inverse .navbar-brand {
+     color: white; 
+}
+
 .navbar-inverse .navbar-brand:hover, .navbar-inverse .navbar-brand:focus {
-	color: rgb(91, 166, 229);
+	color: #BC1A1A;
 }
 
 .navbar-inverse .navbar-nav>li>a:hover, .navbar-inverse .navbar-nav>li>a:focus {
-	color: rgb(91, 166, 229);
+	color: #BC1A1A;
 }
 
 .navbar-inverse .navbar-toggle .icon-bar {
@@ -102,16 +129,16 @@ a:hover, a:focus {
 
 .navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:hover, .navbar-inverse .navbar-nav>.active>a:focus {
 	color: #fff;
-	background-color: rgb(91, 166, 229);
+	background-color: #BC1A1A;
 }
 
 .navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
-  border-color: #101010;
-  background-color: white;
+  /*border-color: #101010;*/
+  background-color: transparent;
 }
 
 .navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:focus {
-  background-color: rgb(91, 166, 229);
+  background-color: #BC1A1A;
 }
 
 /** Shared Divs **/
@@ -128,13 +155,24 @@ a:hover, a:focus {
 	min-height: 200px;
 }
 
-.home-jumbotron {
-	padding-top: 10%;
-	height: 680px;
-	color: rgba(255, 255, 255, 0.85);
+#home-row-location {
+	padding-top: 30px;
+	padding-bottom: 30px;
 
-	background-color: rgb(91, 166, 229);
-	background-image: url(../images/home.png);
+	height: auto;
+	background-color: #BC1A1A;
+	text-align: center;
+	color: white;
+}
+
+#home-row-location > h3{
+	margin: 0;
+	font-weight: 200;
+	font-size: 28px;
+}
+
+#home-row-night-edm {
+	background-image: url(../images/home-night-edm.jpeg);
 	background-repeat: no-repeat;
 	background-position: center center;
 	-webkit-background-size: cover;
@@ -143,14 +181,47 @@ a:hover, a:focus {
 	background-size: cover;
 }
 
+#row-features {
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+
+.jumbotron {
+	margin-bottom: 0;
+}
+
+.home-jumbotron {
+	height: 680px;
+	color: rgba(255, 255, 255, 0.85);
+
+	/*background-color: #BC1A1A;*/
+	background-image: url(../images/home-bg.jpg);
+	background-repeat: no-repeat;
+	background-position: center center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	-webkit-transform-style: preserve-3d;
+	-moz-transform-style: preserve-3d;
+	transform-style: preserve-3d;
+}
+
 .home-jumbotron > div {
-	vertical-align: middle;
+	/*vertical-align: middle;*/
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
 }
 
 .home-jumbotron > div > .head {
-	margin-bottom: 5%;
+	/*margin-bottom: 5%;*/
+
+	display: inline-block;
+	padding: 10px;
 	width: 60%;
 	height: 170px;
+	border: 8px solid;
 	background-color: rgba(35, 35, 37, 0.6);
 
 }
@@ -160,40 +231,73 @@ a:hover, a:focus {
 }
 
 .home-jumbotron > div > .head > p {
-	font-weight: 100;
+	font-weight: 400;
+}
+
+.subscribe-row {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	background-color: #BC1A1A;
+}
+
+.subscribe-form-container {
+	padding-left: 6%;
+	padding-right: 6%;
+}
+
+.home-input-element-p {
+	margin: 0;
 }
 
 #home-email {
-	padding-left: 20px;
-	width: 60%;
-	height: 2.3em;
-	border: 1px solid;
-	border-top-left-radius: 6px;
-	border-bottom-left-radius: 6px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	width: 50%;
+	color: white;
+    border: none;
+    background-color: #BC1A1A;
+    font-size: 25px;
+    outline: none;
+}
+
+::-webkit-input-placeholder {
+   color: white;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   color: white;  
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   color: white;  
+}
+
+:-ms-input-placeholder {  
+   color: white;  
 }
 
 #home-submit {
-	margin-left: -2px;
-	width: 20%;
-	height: 2.3em;
-	font-size: 0.96em;
+	padding: 15px;
+	float: right;
+	font-size: 20px;
 	font-weight: 300;
 	color: white;
-	background-color: rgb(91, 166, 229);
-	border: none;
-	border-top-right-radius: 6px;
-	border-bottom-right-radius: 6px;
+	background-color: #BC1A1A;
+	border: 2px solid;
+	border-color: white;
 }
 
 #home-submit:hover {
-	opacity: 0.9;
+	cursor: pointer;
 }
 
 .why-vermillion {
-	/*padding-left: 5%;*/
 	padding-top: 40px;
-	/*padding-right: 5%;*/
-	/*padding-bottom: 60px;*/
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-left:;
+	height: 600px;
+	background-color: white;
 }
 
 .why-vermillion > div {
@@ -205,14 +309,24 @@ a:hover, a:focus {
 	padding-right: 5%;*/
 }
 
+
+
 .v-advantage > div {
 	margin-bottom: 40px
+}
+
+.home-side {
+	height: 600px;
+	background-image: url(../images/home-side.jpg);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
 .banner-link {
 	padding-top: 40px;
 	padding-bottom: 40px;
-	background-color: rgb(91, 166, 229);
+	background-color: #BC1A1A;
 	background-image: url(../images/home-cta-bg.png);
 	background-repeat: no-repeat;
 	background-position: center center;
@@ -246,7 +360,7 @@ a:hover, a:focus {
 }
 
 .home-contact-btn {
-	background-color: rgb(91, 166, 229);
+	background-color: #BC1A1A;
 }
 /** Sub Pages **/
 .sub-row {
@@ -256,7 +370,7 @@ a:hover, a:focus {
 /** Team Page **/
 .team-headbanner {
 	padding-top: 60px;
-	background-color: rgb(91, 166, 229);
+	background-color: rgba(66, 139, 202, 0.9);
 }
 
 .team-headbanner > .container > .head > h2 {
@@ -296,7 +410,7 @@ a:hover, a:focus {
 .team-history {
 	padding-top: 60px;
 	padding-bottom: 60px;
-	background-color: rgb(91, 166, 229);
+	background-color: #777;
 }
 
 .team-history >  .container > .body > div {
@@ -318,11 +432,11 @@ a:hover, a:focus {
 
 /** Floorplan Page **/
 .fp-headbanner {
-	height: 400px;
-	background-color: rgb(91, 166, 229);
-	background-image: url("../images/fp-banner.png");
-	background-repeat: no-repeat;
-	background-position: center center;
+	height: 50vh;
+	/*background-color: #BC1A1A;*/
+	background-image: url("../images/home-night-edm.jpeg");
+	/*background-repeat: no-repeat;*/
+	/*background-position: center center;*/
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -331,8 +445,8 @@ a:hover, a:focus {
 
 .blue-overlay {
 	height: 400px;
-	padding-top: 120px;
-	background-color: rgba(91, 166, 229, 0.8);
+	padding-top: 170px;
+	/*background-color: rgba(66, 139, 202, 0.9);*/
 }
 
 .blue-overlay > h2 {
@@ -434,7 +548,7 @@ a:hover, a:focus {
 	display: inline-block;
 	width: 12px;
 	height: 12px;
-	background-color: rgb(91, 166, 229);
+	background-color: #BC1A1A;
 	border-radius: 50%;
 }
 
@@ -448,7 +562,7 @@ a:hover, a:focus {
 	padding-bottom: 5px;
 	padding-left: 15px;
 	padding-right: 15px;
-	background: rgb(91, 166, 229);
+	background: #BC1A1A;
 }
 
 .suite-clickable.active > span > .status-available {
@@ -529,7 +643,7 @@ a:hover, a:focus {
 	padding-right: 20px;
 	padding-bottom: 10px;
 	color: white;
-	background: rgb(91, 166, 229);
+	background: #BC1A1A;
 	font-weight: 300;
 	font: 1.5em;
 }
@@ -557,7 +671,49 @@ a:hover, a:focus {
 	padding-left: 50px;
 }
 
+#loft {
+	display: none;
+}
 
 .suite-image {
 	width: 90%;
 }
+
+.loft-image{
+	width: 400px;
+}
+
+/** Team Page **/
+.neighbourhood-banner {
+	padding-top: 60px;
+	/*background-color: #BC1A1A;*/
+	background-image: url("../images/neighbourhood-bg.png");
+	background-repeat: no-repeat;
+	background-position: center center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+.banner-h2 {
+	font-size:3.6em;
+}
+
+.banner-p {
+	font-size: 2.0em;
+}
+
+.location, #map-canvas, .view {
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+.view-img {
+	width: 100%;
+}
+
+.shopping, .transportation, .future-dev {
+	margin-bottom: 40px;
+}
+

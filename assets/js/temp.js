@@ -33,6 +33,7 @@ $(".suite-clickable").click(function(event) {
 			floor = "hmm...";
 			break;
 	}
+	console.log( floor );
 	// Try to get the details for clicked suite
 	$.each(floorInfo, function(f_index, f_value) {
 		console.log(f_index);
@@ -66,6 +67,13 @@ var update_suite_intro = function(floor, suite_number, suite){
 			room_avai_text = "Suite  "+suite_number+" : "+"Availabele";
 			$("#room-availability").html(room_avai_text);
 			$("#suite-image").attr('src', suite_details_arr[2]);
+			if(suite_details_arr[0] == "Suite-C2"){
+				$("#loft").show('slow', function() {
+					
+				});
+			}else {
+				$("#loft").hide();
+			}
 		}
 	});
 

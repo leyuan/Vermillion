@@ -1,4 +1,4 @@
-<nav class="navbar navbar-inverse navbar-fixed-top">
+<nav class="navbar navbar-inverse">
 	<div class="container">
 		<div class="navbar-header">
 			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
@@ -7,15 +7,15 @@
 				<span class="icon-bar"></span>
 				<span class="icon-bar"></span>
 			</button>
-			<a class="navbar-brand" href="#">Vermillion Condos</a>
+			<a class="navbar-brand" href="index.php">Vermillion Condos</a>
 		</div>
 		<div id="navbar" class="navbar-collapse collapse float-right">
 			<ul class="nav navbar-nav">
-				<li class="nav-item nav-neighbour"><a href="neighbourhood">Neighbourhood</a></li>
-				<li class="nav-item nav-homes"><a href="">Homes</a></li>
-				<li class="nav-item nav-Floorplans"><a href="floor-plan">Floorplans</a></li>
-				<li class="nav-item nav-about"><a href="team">Our Team</a></li>
-				<li class="nav-item nav-contact"><a href="">Contact Us</a></li>
+				<li class="nav-item nav-neighbour"><a href="neighborhood.php">Neighborhood</a></li>
+				<!-- <li class="nav-item nav-homes"><a href="home.php">Home</a></li> -->
+				<li class="nav-item nav-Floorplans"><a href="floor-plan.php">Floor Plans</a></li>
+				<!-- <li class="nav-item nav-about"><a href="team.php">Our Team</a></li> -->
+				<li class="nav-item nav-contact"><a href="contact.php">Contact Us</a></li>
 			</ul> 	 
 		</div><!--/.navbar-collapse -->
 	</div>

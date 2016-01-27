@@ -8,6 +8,10 @@ div {
 	/*overflow: hidden;*/
 }
 
+p {
+	font-size: 18px;
+}
+
 .left {
 	display: block;
 	margin-left: 0;
