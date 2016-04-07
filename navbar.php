@@ -11,11 +11,13 @@
 		</div>
 		<div id="navbar" class="navbar-collapse collapse float-right">
 			<ul class="nav navbar-nav">
-				<li class="nav-item nav-neighbour"><a href="neighborhood.php">Neighborhood</a></li>
+				<li class="nav-item nav-neighbour"><a href="neighborhood.php">NEIGHBORHOOD</a></li>
 				<!-- <li class="nav-item nav-homes"><a href="home.php">Home</a></li> -->
-				<li class="nav-item nav-Floorplans"><a href="floor-plan.php">Floor Plans</a></li>
+				<li class="nav-item nav-Floorplans"><a href="floor-plan.php">FLOOR PLANS</a></li>
 				<!-- <li class="nav-item nav-about"><a href="team.php">Our Team</a></li> -->
-				<li class="nav-item nav-contact"><a href="contact.php">Contact Us</a></li>
+				<li class="nav-item nav-contact"><a href="about.php">ABOUT US</a></li>
+
+				<li class="nav-item nav-contact"><a href="contact.php">GET IN TOUCH</a></li>
 			</ul> 	 
 		</div><!--/.navbar-collapse -->
 	</div>

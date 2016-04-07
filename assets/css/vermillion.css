@@ -95,6 +95,9 @@ p {
 	height: 70px;
 	font-size: 17px;
 	background-color: transparent;
+	border: 0;
+	border-bottom: 1px solid;
+	border-color: white;
 }
 
 .navbar-nav > li {
@@ -104,7 +107,7 @@ p {
 
 .navbar-inverse {
 	margin-top: 25px;
-	border-color: transparent;
+	/*border-color: transparent;*/
 }
 
 .navbar-inverse .navbar-nav>li>a {
@@ -139,33 +142,52 @@ p {
 
 .navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:focus {
   background-color: #BC1A1A;
+  border-color: transparent;
 }
 
 /** Shared Divs **/
 .footer {
 	margin: 0;
 	padding: 0;
-	height: 150px;
+	height: 50px;
 	background-color: #333;
+}
+
+.btn-trans {
+	background-color: transparent;
 }
 
 /** Home Page **/
 
 .home-row {
+	display: block;
+	margin: 0 auto;
+	padding: 60px 0;
+	max-width: 1300px;
 	min-height: 200px;
 }
 
-#home-row-location {
-	padding-top: 30px;
-	padding-bottom: 30px;
+.banner-row {
+	width: 100%;
+}
 
-	height: auto;
+#home-row-location button {
+	margin-left: 25px;
+	background-color: transparent;
+	color: white;
+	border-color: white;
+}
+
+#home-row-location {
+	padding: 30px 60px;
+	/*height: auto;*/
 	background-color: #BC1A1A;
 	text-align: center;
 	color: white;
 }
 
-#home-row-location > h3{
+#home-row-location h3 {
+	display: inline-block;
 	margin: 0;
 	font-weight: 200;
 	font-size: 28px;
@@ -249,6 +271,14 @@ p {
 	margin: 0;
 }
 
+.feature-tabs-container {
+	text-align: left;
+}
+
+.feature-tabs-container ul {
+    list-style-type: none;
+}
+
 #home-email {
 	padding-top: 15px;
 	padding-bottom: 15px;
@@ -292,16 +322,15 @@ p {
 }
 
 .why-vermillion {
-	padding-top: 40px;
-	padding-left: 50px;
-	padding-right: 50px;
-	padding-left:;
-	height: 600px;
 	background-color: white;
 }
 
-.why-vermillion > div {
-	margin-bottom: 40px;
+.why-vermillion h4 {
+	font-size: 1.4em;
+}
+
+.why-vermillion .col-md-12 {
+	margin: 20px 0;
 }
 
 .why-vermillion > .body, .why-vermillion > .foot {
@@ -309,10 +338,17 @@ p {
 	padding-right: 5%;*/
 }
 
+.home-intro {
+	margin: 0 auto;
+	max-width: 1200px;
+}
 
+.v-advantage {
+	max-width: 1200px;
+}
 
-.v-advantage > div {
-	margin-bottom: 40px
+.feature-list {
+	min-height: 300px;
 }
 
 .home-side {
@@ -326,7 +362,6 @@ p {
 .banner-link {
 	padding-top: 40px;
 	padding-bottom: 40px;
-	background-color: #BC1A1A;
 	background-image: url(../images/home-cta-bg.png);
 	background-repeat: no-repeat;
 	background-position: center center;
@@ -337,7 +372,7 @@ p {
 }
 
 .home-cta-img, .home-cta-text {
-	width: 80%;
+	width: 65%;
 }
 
 .home-cta-img {
@@ -362,6 +397,13 @@ p {
 .home-contact-btn {
 	background-color: #BC1A1A;
 }
+
+section#content1 ul{
+	list-style-type: none;
+}
+
+
+
 /** Sub Pages **/
 .sub-row {
 	min-height: 300px;
@@ -716,4 +758,103 @@ p {
 .shopping, .transportation, .future-dev {
 	margin-bottom: 40px;
 }
+
+*, *:before, *:after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  padding: 50px 0;
+  font-weight: 400;
+  text-align: center;
+}
+
+main li {
+  font-size: 1.3em;
+  margin: 0 0 5px;
+  line-height: 1.5;
+}
+
+main {
+  min-width: 320px;
+  max-width: 1200px;
+  min-height: 300px;
+  max-height: 600px;
+  margin: 0 auto;
+  background: #fff;
+  text-align: center;
+}
+
+section {
+  display: none;
+  padding: 20px 0 0;
+  border-top: 1px solid #ddd;
+}
+
+input.tabs {
+  display: none;
+}
+
+.tab-content {
+	padding-left: 80px;
+	text-align: left;
+}
+
+label {
+  display: inline-block;
+  margin: 0 0 -1px;
+  padding: 15px 25px;
+  font-weight: 600;
+  font-size: 1.3em;
+  text-align: center;
+  color: #bbb;
+  border: 1px solid transparent;
+}
+
+label:before {
+  font-family: fontawesome;
+  font-weight: normal;
+  margin-right: 10px;
+}
+
+label:hover {
+  color: #888;
+  cursor: pointer;
+}
+
+input:checked + label {
+  color: #555;
+  border: 1px solid #ddd;
+  border-top: 2px solid orange;
+  border-bottom: 1px solid #fff;
+}
+
+#tab1:checked ~ #content1,
+#tab2:checked ~ #content2,
+#tab3:checked ~ #content3,
+#tab4:checked ~ #content4,
+#tab5:checked ~ #content5,
+#tab6:checked ~ #content6 {
+  display: block;
+}
+
+@media screen and (max-width: 650px) {
+  label {
+    font-size: 0;
+  }
+  label:before {
+    margin: 0;
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  label {
+    padding: 15px;
+  }
+}
+
+
 
