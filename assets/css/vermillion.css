@@ -115,7 +115,7 @@ p {
 }
 
 .navbar-inverse .navbar-brand {
-     color: white; 
+     color: white;
 }
 
 .navbar-inverse .navbar-brand:hover, .navbar-inverse .navbar-brand:focus {
@@ -149,8 +149,17 @@ p {
 .footer {
 	margin: 0;
 	padding: 0;
-	height: 50px;
+	padding-top: 30px;
+	height: 100px;
 	background-color: #333;
+}
+
+.footer .left {
+	padding-left: 60px;
+}
+
+.footer p {
+	color: white;
 }
 
 .btn-trans {
@@ -169,6 +178,22 @@ p {
 
 .banner-row {
 	width: 100%;
+}
+
+.footer-link .title-container {
+	position: absolute;
+	top: 40%;
+	left: 20%;
+	margin: 0 auto;
+	max-width: 380px;
+	width: 65%;
+	height: 20%;
+	background: grey;
+	text-align: center;
+}
+
+.footer-link .title-container h3 {
+	margin-top: 0;
 }
 
 #home-row-location button {
@@ -295,15 +320,15 @@ p {
 }
 
 :-moz-placeholder { /* Firefox 18- */
-   color: white;  
+   color: white;
 }
 
 ::-moz-placeholder {  /* Firefox 19+ */
-   color: white;  
+   color: white;
 }
 
-:-ms-input-placeholder {  
-   color: white;  
+:-ms-input-placeholder {
+   color: white;
 }
 
 #home-submit {
@@ -510,6 +535,7 @@ section#content1 ul{
 }
 
 .floor-selector-container > ul {
+	text-align: right;
 	list-style-type: none;
 }
 
@@ -528,10 +554,10 @@ section#content1 ul{
 	text-decoration: underline;
 }
 
-.second-container, 
-.third-container, 
-.fourth-container, 
-.fifth-container, 
+.second-container,
+.third-container,
+.fourth-container,
+.fifth-container,
 .sixth-container {
 	display: none;
 }

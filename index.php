@@ -281,12 +281,13 @@
 	</div>
  -->
 
-	<div class="banner-row">
+	<div class="banner-row footer-link">
 		<div class="banner-link">
 			<div class="head">
 				<div class="col-md-3">
 					<a href="neighborhood.php">
 						<img src="assets/images/home-neighbour.png" alt="Home-Condo-Click" class="home-cta-img center" />
+						<!-- <span class="title-container"><h3 class="link-title">Neightbourhood</h3></span> -->
 					</a>
 				</div>
 				<div class="col-md-3">
@@ -308,7 +309,7 @@
 		</div>
 	</div>
 
-	<div class="home-row">
+<!-- 	<div class="home-row">
 		<div class="container center text-center home-contact">
 		 	<div class="text-center">
 			 	<h2 class="default-font font-light">
@@ -323,7 +324,7 @@
 				<a href="contact.php"><button class="p-btn center">Contact Us</button></a>
 			</div>
 		</div>
-	</div>
+	</div> -->
 	<?php
 		include_once("footer.php");
 	?>
