@@ -56,17 +56,17 @@
 	                   </div>
 	                   <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 address">
 	                   	<div class="contact-right text-left">
-	                           <h4>Beyond Powder Coatings Ltd.</h4>
+	                           <h4>Redleaf Group</h4>
 	                           <p>
-	                               5421 McLuhan End NW, <br>
-	                               Edmonton AB, Canada, T6R 0P8 <br>
+	                               10611 116 STREET NW,<br>
+	                               Edmonton AB, Canada, ###zip-code<br>
 	                               Phone:<br>
-	                               Steven - +1 780-243-6277 <br>
-	                               Lucy - +1 780-991-7883
+	                               Troy - +1 780-xxx-xxxx <br>
+	                               Chuchu - +1 780-xxx-xxxx
 	                           </p>
 	                           <p>
-	                               E-mail: bpowdercoatings@gmail.com <br>
-	                               Website: www.bypowder.com
+	                               E-mail: bpowdercoatings@gmail.com<br>
+	                               Website: www.vermillioncondos.com
 	                           </p>
 	                           <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3524.253825418655!2d-113.56881072362185!3d53.43799073978277!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x53a01e376cc093d5%3A0x162fd5975a58971f!2s5421+Mcluhan+End+NW%2C+Edmonton%2C+AB+T6R+0P8!5e0!3m2!1sen!2sca!4v1454680050205" width="100%" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
 	                       </div>

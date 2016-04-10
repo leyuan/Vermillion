@@ -286,29 +286,6 @@ p {
 	font-weight: 400;
 }
 
-.subscribe-row {
-	padding-top: 20px;
-	padding-bottom: 20px;
-	background-color: #BC1A1A;
-}
-
-.subscribe-form-container {
-	padding-left: 6%;
-	padding-right: 6%;
-}
-
-.home-input-element-p {
-	margin: 0;
-}
-
-.feature-tabs-container {
-	text-align: left;
-}
-
-.feature-tabs-container ul {
-    list-style-type: none;
-}
-
 #home-email {
 	padding-top: 15px;
 	padding-bottom: 15px;
