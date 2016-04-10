@@ -281,34 +281,6 @@
 	</div>
  -->
 
-	<div class="banner-row footer-link">
-		<div class="banner-link">
-			<div class="head">
-				<div class="col-md-3">
-					<a href="neighborhood.php">
-						<img src="assets/images/home-neighbour.png" alt="Home-Condo-Click" class="home-cta-img center" />
-						<!-- <span class="title-container"><h3 class="link-title">Neightbourhood</h3></span> -->
-					</a>
-				</div>
-				<div class="col-md-3">
-					<a href="floor-plan.php">
-						<img src="assets/images/home-floorplan.png" alt="Home-Condo-Click" class="home-cta-img center" />
-					</a>
-				</div>
-				<div class="col-md-3">
-					<a href="contact.php">
-						<img src="assets/images/home-condo.png" alt="Home-Condo-Click" class="home-cta-img center" />
-					</a>
-				</div>
-				<div class="col-md-3">
-					<a href="contact.php">
-						<img src="assets/images/home-condo.png" alt="Home-Condo-Click" class="home-cta-img center" />
-					</a>
-				</div>
-			</div>
-		</div>
-	</div>
-
 <!-- 	<div class="home-row">
 		<div class="container center text-center home-contact">
 		 	<div class="text-center">

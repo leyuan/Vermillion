@@ -145,23 +145,6 @@ p {
   border-color: transparent;
 }
 
-/** Shared Divs **/
-.footer {
-	margin: 0;
-	padding: 0;
-	padding-top: 30px;
-	height: 100px;
-	background-color: #333;
-}
-
-.footer .left {
-	padding-left: 60px;
-}
-
-.footer p {
-	color: white;
-}
-
 .btn-trans {
 	background-color: transparent;
 }
@@ -176,25 +159,47 @@ p {
 	min-height: 200px;
 }
 
-.banner-row {
-	width: 100%;
+
+.small-show {
+	display: none;
 }
 
-.footer-link .title-container {
-	position: absolute;
-	top: 40%;
-	left: 20%;
-	margin: 0 auto;
-	max-width: 380px;
+#footer {
+	display: block;
+	padding-top: 60px;
+	padding-bottom: 60px;
+	background-image: url(../images/home-cta-bg.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+#footer .container {
 	width: 65%;
-	height: 20%;
-	background: grey;
+}
+
+.links a {
+	display: inline-block;
+	margin: 10px;
+	width: 17%;
+	color: white;
 	text-align: center;
 }
 
-.footer-link .title-container h3 {
-	margin-top: 0;
+.links a img {
+	margin-bottom: 15px;
 }
+
+#footer .info	{
+	margin-top: 0 auto;
+	padding-left: 7%;
+	text-align: left;
+	color: white;
+}
+
 
 #home-row-location button {
 	margin-left: 25px;
@@ -316,19 +321,19 @@ p {
 }
 
 ::-webkit-input-placeholder {
-   color: white;
+   color: #959595;
 }
 
 :-moz-placeholder { /* Firefox 18- */
-   color: white;
+   color: #959595;
 }
 
 ::-moz-placeholder {  /* Firefox 19+ */
-   color: white;
+   color: #959595;
 }
 
 :-ms-input-placeholder {
-   color: white;
+   color: #959595;
 }
 
 #home-submit {
@@ -503,7 +508,7 @@ section#content1 ul{
 	/*background-color: #BC1A1A;*/
 	background-image: url("../images/home-night-edm.jpeg");
 	/*background-repeat: no-repeat;*/
-	/*background-position: center center;*/
+	background-position: center 12%;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -866,6 +871,186 @@ input:checked + label {
   display: block;
 }
 
+#contact-area {
+  padding-top:60px;
+  padding-bottom:100px;
+}
+
+.contact h4 {
+	color: #959595;
+	font-weight: 400;
+}
+
+.contact .section-title {
+  margin-bottom: 45px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.contact .section-title p {
+  font-family: "Open Sans",sans-serif;
+  padding-top: 40px;
+}
+.contact-form form label.error {
+  display: none !important;
+}
+.contact-form form input.error,
+.contact-form form textarea.error {
+  border: 1px solid red !important;
+  outline: none !important;
+}
+.contact-form form input[type="text"] {
+  border: 1px solid #e8e8e8;
+  color: #333;
+  font-size: 16px;
+  height: 50px;
+  margin-bottom: 20px;
+  padding: 0 24px;
+  width: 100%;
+  font-family: "PT Serif",sans-serif;
+  font-style:italic;
+}
+.contact-form form textarea {
+  border: 1px solid #e8e8e8;
+  color: #959595;
+  font-size: 16px;
+  height: 189px;
+  margin-bottom: 27px;
+  padding: 20px 24px;
+  width: 100%;
+  font-family: "PT Serif",sans-serif;
+  font-style:italic;
+}
+.contact-form form button[type="submit"] {
+  background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+  border: 1px solid #959595;
+  color: #2a2a2a;
+  display: block;
+  font-family: "Open Sans",sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  padding: 6px 25px 7px 25px;
+  text-transform: uppercase;
+  background: #1F1F1F none repeat scroll 0 0;
+  color: #ffffff;
+  display: inline-block;
+  font-family: "Open Sans",sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 0px 17px 0px 23px;
+  text-transform: uppercase;
+  border: 1px solid #1f1f1f;
+  border-radius: 5px;
+  line-height: 42px;
+}
+.contact-form form button[type="submit"] {
+  background: white none repeat scroll 0 0;
+  color: #1F1F1F;
+  display: inline-block;
+  font-family: "Open Sans",sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 0px 17px 0px 23px;
+  text-transform: uppercase;
+  border: 1px solid #1f1f1f;
+  border-radius: 5px;
+  line-height: 42px;
+}
+.contact-form form button[type="submit"] .fa {
+  color: #069;
+  font-size: 14px;
+  border-left: 1px solid #424242;
+  padding-left: 15px;
+  margin-left: 20px;
+  line-height: 42px;
+}
+.contact-form form button[type="submit"]:hover .fa {
+  color: white;
+}
+
+.contact-form form button[type="submit"]:hover {
+  background: #069;
+  color: white;
+}
+
+
+.contact-form form input[type="text"]:focus{
+  border:1px solid #82c7f7;
+}
+.contact-form form textarea:focus{
+  border:1px solid #82c7f7;
+}
+
+.contact-right {
+  /*background: #f1f1f1 none repeat scroll 0 0;*/
+  position: relative;
+}
+.contact-right::before {
+  /*border: 1px solid #ffffff;*/
+  content: "";
+  left: 10px;
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  bottom: 10px;
+}
+.contact-right-img {
+  padding-top: 35px;
+  position: relative;
+  z-index: 999;
+}
+.contact-right-text h3 {
+  color: #444444;
+  font-family: "Open Sans",sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 10px;
+  margin-top: 25px;
+  text-transform: uppercase;
+}
+.contact-right-text h5 {
+  color: #7e7e7e;
+  font-family: "Open Sans",sans-serif;
+  font-size: 15px;
+  font-weight: normal;
+  margin-bottom: 14px;
+}
+.contact-right-text {
+  position: relative;
+  z-index: 999;
+}
+.contact-right-text p {
+  color: #7e7e7e;
+  font-size: 15px;
+  margin-bottom: 5px;
+  font-family: "Open Sans",sans-serif;
+}
+.contact-right-social-link {
+  padding-bottom: 40px;
+  padding-top: 16px;
+  position: relative;
+  z-index: 999;
+}
+.contact-right-social-link a i {
+  color: #2a2a2a;
+  font-size: 16px;
+  margin: 0 10px;
+}
+
+
+#map-area {
+    position: relative;
+}
+#map-area::before {
+    background: #000000 none repeat scroll 0 0;
+    content: "";
+    height: 100%;
+    left: 0;
+    opacity: 0.4;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
 @media screen and (max-width: 650px) {
   label {
     font-size: 0;
@@ -874,6 +1059,12 @@ input:checked + label {
     margin: 0;
     font-size: 18px;
   }
+  .small-show {
+  	display: block;
+  }
+  #footer .container {
+  	width: 95%;
+  }
 }
 
 @media screen and (max-width: 400px) {
@@ -881,6 +1072,3 @@ input:checked + label {
     padding: 15px;
   }
 }
-
-
-

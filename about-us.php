@@ -42,7 +42,7 @@
 					<div class="container col-md-4">
 						<h2 class="p-color">Developer</h2>
 						<p>
-							Text highlighting the qualifications and accomplishments of the developer. Something to showcase their comepetencies and what makes them great. 
+							Text highlighting the qualifications and accomplishments of the developer. Something to showcase their comepetencies and what makes them great.
 							Redleaf productions has a commitment to quality.
 							Demonstrated through years of experience working.
 						</p>
@@ -91,8 +91,8 @@
 			<div class="container text-center">
 				<div class="head">
 					<h2>Previous Accomplishments</h2>
-					<p>A caption introduces the previous projects</p>			
-				</div>	
+					<p>A caption introduces the previous projects</p>
+				</div>
 				<div class="body">
 					<div class="accomplishment-row">
 						<div class="col-md-6">
@@ -113,12 +113,12 @@
 							<h3>Office Building XYZ</h3>
 							<p>
 								Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium.
-							</p>	
+							</p>
 						</div>
 					</div>
 				</div>
-			</div>	
-		</div>	
+			</div>
+		</div>
 		<?php
 		include_once("footer.php");
 		?>
