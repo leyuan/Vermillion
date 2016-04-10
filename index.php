@@ -53,30 +53,21 @@
 	<div id="home-row-location">
 		<h3>
 			10611 116 STREET NW, EDMONTON
-			<button class="btn btn-lg btn-trans"> CONTACT US </button>
 		</h3>
 	</div>
 
 	<div class="home-row" id="home-row-three">
-<!-- 		<div class="col-md-4 home-side">
-		</div> -->
 		<div class="col-md-12 container center text-center why-vermillion">
-<!-- 			<div class="text-left head">
-				<h2 class="p-color font-light">Why Vermillion</h2>
-			</div> -->
-
 		 	<div class="text-left body home-intro">
-			 	<h2 class="default-font font-light text-center">
-				  	IDEAL FOR ANYONE
-		   	 	</h2>
-	   	 	</div>
+		 		<h2 class="default-font font-light"> IDEAL FOR ANYONE </h2>
+   	 	</div>
 
-	   	 		<div class="head col-md-12 text-left">
-   	 			  <h4 class="default-font font-light">
-   	 			    The steel and concrete based structure system of Vermillion ensures you to enjoy the best living experience and the most reliable protection from fire and sound.
-   	 			  	The exterior  exclusive  designed  by  our  architect  provide  you  the  most  contemporary appearance.
-   	 			  </h4>
-	   	 		</div>
+ 	 		<div class="head col-md-12 text-left">
+ 			  <h4 class="default-font font-light">
+ 			    The steel and concrete based structure system of Vermillion ensures you to enjoy the best living experience and the most reliable protection from fire and sound.
+ 			  	The exterior  exclusive  designed  by  our  architect  provide  you  the  most  contemporary appearance.
+ 			  </h4>
+ 	 		</div>
 
    	 		<div class="col-md-12">
 			   	 	<div class="feature-tabs-container">

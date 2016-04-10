@@ -79,7 +79,7 @@
 						<span class="col-three">
 							<p class="suite-clickable">
 								<span>
-									<span class="status-available"></span> 
+									<span class="status-available"></span>
 									<span class="suite-number">105</span>
 								</span><br />
 								SUITE B <br />
@@ -89,7 +89,7 @@
 						<span class="col-four">
 							<p class="suite-clickable">
 								<span>
-									<span class="status-available"></span> 
+									<span class="status-available"></span>
 									<span class="suite-number">106</span>
 								</span><br />
 								SUITE B <br />
@@ -99,7 +99,7 @@
 						<span class="col-five">
 							<p class="suite-clickable">
 								<span>
-									<span class="status-available"></span> 
+									<span class="status-available"></span>
 									<span class="suite-number">108</span>
 								</span><br />
 								SUITE C4 <br />
@@ -111,7 +111,7 @@
 						<span class="col-one">
 						</span>
 						<span class="col-two">
-							<p class="suite-clickable"> 
+							<p class="suite-clickable">
 								<span>
 									<span class="status-available"></span>
 									<span class="suite-number">103</span>
@@ -131,7 +131,7 @@
 							</p>
 						</span>
 						<span class="col-five"><p class="suite-clickable">
-							<p class="suite-clickable"> 
+							<p class="suite-clickable">
 								<span>
 									<span class="status-available"></span>
 									<span class="suite-number">109</span>
@@ -163,7 +163,7 @@
 							</p>
 						</span>
 						<span class="col-three">
-							
+
 						</span>
 						<span class="col-four">
 							<p class="suite-clickable">
@@ -177,7 +177,7 @@
 						</span>
 						<span class="col-five">
 							<p class="suite-clickable">
-								<span>	
+								<span>
 									<span class="status-available"></span>
 									<span class="suite-number">110</span>
 								</span><br />
@@ -309,7 +309,7 @@
 							</p>
 						</span>
 						<span class="col-three">
-							
+
 						</span>
 						<span class="col-four">
 							<p class="suite-clickable">
@@ -455,7 +455,7 @@
 							</p>
 						</span>
 						<span class="col-three">
-							
+
 						</span>
 						<span class="col-four">
 							<p class="suite-clickable">
@@ -479,7 +479,7 @@
 						</span>
 					</div>
 				</div>
-			</div>	
+			</div>
 
 			<!-- Fourth Floor -->
 			<div class="container col-md-10 floor-img-container fourth-container">
@@ -601,7 +601,7 @@
 							</p>
 						</span>
 						<span class="col-three">
-							
+
 						</span>
 						<span class="col-four">
 							<p class="suite-clickable">
@@ -747,7 +747,7 @@
 							</p>
 						</span>
 						<span class="col-three">
-							
+
 						</span>
 						<span class="col-four">
 							<p class="suite-clickable">
@@ -771,7 +771,7 @@
 						</span>
 					</div>
 				</div>
-			</div>		
+			</div>
 		</div>
 
 		<div class="sub-row suite-intro-container" id="suite-section">
@@ -783,7 +783,7 @@
 				749(suite) + 303(balcony) = 1052 FT&sup2; total | The Passionate is a two bedroom
 				suite with a modern sliding privatcy glass wall in both bedrooms which open up the space
 				during the day. An expandable island table transfroms the spcae for easy entertaining.
-				The large balcony brings entertaining outdoors too! Choose from a variety of module and a 
+				The large balcony brings entertaining outdoors too! Choose from a variety of module and a
 				la carte options to transform this space to suit your lifestyle.
 				</p>
 				<h4 class="suite-recommendation">Recommendation</h4>
@@ -795,11 +795,8 @@
 				<p class="floor-recommendation">1th Floor <span class="suite-recommendation-number">102 109 110</span></p>
 			</div>
 			<div class="col-md-7">
-				<div id="loft">
-					<img src="assets/images/suite-C2-a.png" class="center suite-image loft-image" />
-				</div>
 				<div>
-					<img src="assets/images/suite-A.png" alt="Suite-A-Image" class="center suite-image" id="suite-image">
+					<img src="assets/images/suite-A.jpg" alt="Suite-A-Image" class="center suite-image" id="suite-image">
 				</div>
 			</div>
 		</div>
@@ -822,7 +819,7 @@
 				$('.floor-img-container.active').fadeOut('slow', function() {
 					$('.floor-img-container.active').removeClass('active');
 					// selected image fade in
-					
+
 					console.log( target_floor );
 					$('.'+target_floor).fadeIn('slow', function() {
 						$('.'+target_floor).addClass('active');
@@ -914,19 +911,6 @@
 		//suiteInfo Signature
 		//['img-name','suite-size', 'suite-image', bedroom-bath-room']
 		var suiteInfo = {
-			'Suite A': ['Suite-A', 1420, 'assets/images/suite-A.png'],
-			'Suite B': ['Suite-B', 970, 'assets/images/suite-B.png'],
-			'Suite B1': ['Suite-B1', 970, 'assets/images/suite-B.png'],
-			'Suite B2': ['Suite-B2', 970, 'assets/images/suite-B.png'],
-			'Suite C': ['Suite-C', 1065, 'assets/images/suite-C.png'],
-			'Suite C2' : ['Suite-C2', 1085, 'assets/images/suite-C2-b.png'],
-			'Suite C1': ['Suite-C1', 1065, 'assets/images/suite-C.png'],
-			'Suite C4': ['Suite-C4', 1065, 'assets/images/suite-C.png'],
-			'Suite D': ['Suite-D', 841, 'assets/images/suite-D.png'],
-			'Suite E': ['Suite-E', 686, 'assets/images/suite-E.png']
-		}
-
-/*		var suiteInfo = {
 			'Suite A': ['Suite-A', 1420, 'assets/images/suite-A.jpg'],
 			'Suite B': ['Suite-B', 970, 'assets/images/suite-B.jpg'],
 			'Suite B1': ['Suite-B1', 970, 'assets/images/suite-B.jpg'],
@@ -935,9 +919,9 @@
 			'Suite C2' : ['Suite-C2', 1085, 'assets/images/suite-C2.jpg'],
 			'Suite C1': ['Suite-C1', 1065, 'assets/images/suite-C.jpg'],
 			'Suite C4': ['Suite-C4', 1065, 'assets/images/suite-C.jpg'],
-			'Suite D': ['Suite-D', 841, 'assets/images/suite-D.jpg'],
+			'Suite D': ['Suite-D', 841, 'assets/images/suite-D.png'],
 			'Suite E': ['Suite-E', 686, 'assets/images/suite-E.jpg']
-		}*/
+		}
 	</script>
 	<script src="assets/js/temp.js"></script>
   </html>

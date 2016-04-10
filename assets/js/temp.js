@@ -1,7 +1,5 @@
 $(".suite-clickable").click(function(event) {
-	console.log( 'clicked' );
 
-	// de-active current label effect
 	$(".suite-clickable.active").removeClass('active');
 
 	$(this).addClass('active');
@@ -33,24 +31,20 @@ $(".suite-clickable").click(function(event) {
 			floor = "hmm...";
 			break;
 	}
-	console.log( floor );
+	// console.log( floor );
 	// Try to get the details for clicked suite
 	$.each(floorInfo, function(f_index, f_value) {
-		console.log(f_index);
+		// console.log(f_index);
 		// first match the floor
-		if( f_index.toLowerCase() == floor.toLowerCase() ){	
+		if( f_index.toLowerCase() == floor.toLowerCase() ){
 			$.each(f_value, function(s_index, s_value) {
 				// then match the suite
 				if( s_index == suite ) {
-					console.log(s_value);
+					// console.log(s_value);
 					update_suite_intro(floor, suite, s_value[0]);
 				}
 			});
-		} 
-		// else {
-		// 	console.log('floor not match');
-		// 	console.log('floor:'+floor);
-		// }
+		}
 	});
 
  	// Scroll to suite-intro section
@@ -60,7 +54,7 @@ $(".suite-clickable").click(function(event) {
 });
 
 var update_suite_intro = function(floor, suite_number, suite){
-	console.log( "suite -> "+suite );
+	// console.log( "suite -> "+suite );
 	$.each(suiteInfo, function(suite_name, suite_details_arr) {
 		if(suite == suite_name) {
 			$("#suite-type").html(suite_details_arr[0]);
@@ -69,7 +63,7 @@ var update_suite_intro = function(floor, suite_number, suite){
 			$("#suite-image").attr('src', suite_details_arr[2]);
 			if(suite_details_arr[0] == "Suite-C2"){
 				$("#loft").show('slow', function() {
-					
+
 				});
 			}else {
 				$("#loft").hide();

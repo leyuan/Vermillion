@@ -7,7 +7,7 @@
 				<span class="icon-bar"></span>
 				<span class="icon-bar"></span>
 			</button>
-			<a class="navbar-brand" href="index.php">Vermillion Condos</a>
+			<a class="navbar-brand logo" href="index.php">Vermillion Condos</a>
 		</div>
 		<div id="navbar" class="navbar-collapse collapse float-right">
 			<ul class="nav navbar-nav">
