@@ -175,7 +175,7 @@ p {
 	display: block;
 	padding-top: 60px;
 	padding-bottom: 60px;
-	background-image: url(../images/home-cta-bg.png);
+	background-image: url(../images/neighborhood-bg.png);
 	background-repeat: no-repeat;
 	background-position: center center;
 	-webkit-background-size: cover;
@@ -439,47 +439,30 @@ p {
 	padding-bottom: 60px;
 }
 
-.team-intro > .container > .head > div {
-	margin-top: 20px;
+.team-intro .container .col-md-4 {
+	margin: 20px 0;
 }
 
-.team-intro > .container > .head > div > h2 {
-	font-weight: 400;
-}
-
-.team-intro > .container > .body {
-	margin-top: 30px;
-}
-
-.team-intro > .container > .body > h2 {
-	font-weight: 400;
-}
-
-.team-intro > .container > .body > div {
-	margin-top: 30px;
+.team-intro .container h3 {
+	text-align: center;
 }
 
 .team-history {
 	padding-top: 60px;
 	padding-bottom: 60px;
-	background-color: #777;
 }
 
-.team-history >  .container > .body > div {
+.team-history > .container > .body > div {
 	margin-top: 30px;
 	margin-bottom: 30px;
 }
 
-.team-history > .container > .head > h2, .team-history > .container > .head > p {
-	font-weight: 300;
+.before-work {
+	margin: 20px 0;
 }
 
-.accomplishment-row > .col-md-6 > p {
-	font-weight: 300;
-}
-
-.accomplishment-img {
-	width: 90%;
+.before-work img {
+	float: right;
 }
 
 /** Floorplan Page **/

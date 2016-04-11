@@ -38,82 +38,64 @@
 
 		<div class="sub-row team-intro default-font">
 			<div class="container">
-				<div class="head">
-					<div class="container col-md-4">
-						<h2 class="p-color">Developer</h2>
+					<div class="sub-title">
+						<h2 class="p-color">WHY CHOOSE US</h2>
+					</div>
+
+					<div class="col-md-4">
+						<h3 class="">Developer</h3>
 						<p>
-							Text highlighting the qualifications and accomplishments of the developer. Something to showcase their comepetencies and what makes them great.
-							Redleaf productions has a commitment to quality.
-							Demonstrated through years of experience working.
+							Redleaf Group is established in 1992, and one of its subsidiaries Redleaf Enterprises Inc. has been dedicated to the importation and exportation of building material. In addition, Redleaf is the first Canadian company to introduce North American wood frame houses, multi-storey light-weight steel condos and high-rises to China. Now Redleaf returns to where everything gets started, the Readleaf Properties Ltd. is ready to bring the best living experience to people Edmonton and Canada.
 						</p>
 					</div>
 
-					<div class="container col-md-4">
-						<h2 class="p-color">Warranty</h2>
+					<div class="col-md-4">
+						<h3 class="">Warranty</h3>
 						<p>
-							Introduce the greate benefits of Vermillion warranty program.
-							Help the users picture the future, how will they solve possible issues by having this warranty.
-							XYZ has with builders in Edmonton, growing the skyline and creating some of Edmontons's most iconing buildings.
+							Warranty Information Needed.
 						</p>
 					</div>
 
-					<div class="container col-md-4">
-						<h2 class="p-color">General Contractor</h2>
+					<div class="col-md-4">
+						<h3 class="">General Contractor</h3>
 						<p>
-							Text highlighting the qualifications and accomplishments of the marketing firm.
-							Something to showcase their comepetencies and what makes them great.
-							XYZ has with builders in Edmonton, growing the skyline and creating some of Edmontons's most iconing buildings.
+							Contractor Information Needed.
 						</p>
 					</div>
-				</div>
-
-<!-- 				<div class="body container">
-					<h2 class="p-color font-light">Why us?</h2>
-					<div class="text-center">
-						<div class="col-md-4">
-							<h3>Experienced</h3>
-							<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
-						</div>
-						<div class="col-md-4">
-							<h3>The Best</h3>
-							<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
-						</div>
-						<div class="col-md-4">
-							<h3>Trustworthy</h3>
-							<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
-						</div>
-					</div>
-				</div> -->
 			</div>
-		</div>
-
-		<div class="sub-row team-history white-font">
-			<div class="container text-center">
-				<div class="head">
-					<h2>Previous Accomplishments</h2>
-					<p>A caption introduces the previous projects</p>
-				</div>
-				<div class="body">
-					<div class="accomplishment-row">
+			<div class="container">
+				<div class="sub-title">
+					<h2 class="p-color"> PRVIOUS WORK</h2>
+					<div class="before-work">
 						<div class="col-md-6">
-							<img src="assets/images/accomplishment1.png" alt="Hospital" class="center accomplishment-img" />
+							<img src="assets/images/w1.png" alt="">
 						</div>
 						<div class="col-md-6">
-							<h3>Medical Hospital of China</h3>
-							<p>
-								Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.
-							</p>
+							<p>Information Needed.</p>
 						</div>
 					</div>
-					<div class="accomplishment-row">
+					<div class="before-work">
 						<div class="col-md-6">
-							<img src="assets/images/accomplishment2.png" alt="Office" class="center accomplishment-img" />
+							<img src="assets/images/w2.png" alt="">
 						</div>
 						<div class="col-md-6">
-							<h3>Office Building XYZ</h3>
-							<p>
-								Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium.
-							</p>
+							<p>Information Needed.</p>
+						</div>
+					</div>
+					<div class="before-work">
+						<div class="col-md-6">
+							<img src="assets/images/w3.png" alt="">
+						</div>
+						<div class="col-md-6">
+							<p>Information Needed.</p>
+						</div>
+					</div>
+					<div class="before-work">
+						<div class="col-md-6">
+							<img src="assets/images/w4.png" alt="">
+						</div>
+						<div class="col-md-6">
+							<p>Information Needed.</p>
 						</div>
 					</div>
 				</div>
