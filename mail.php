@@ -37,7 +37,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $mail->Send();
         echo "success";
     } catch(Exception $e){
-        // var_dump($e);
+        var_dump($e);
         echo "fail";
     }
 }
