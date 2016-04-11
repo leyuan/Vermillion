@@ -43,13 +43,14 @@
     $("#get-in-touch-form").submit( function(event){
       event.preventDefault();
       var formData = $("#get-in-touch-form").serialize();
+      var message = "Submitting ...";
+      $("#form-message").text(message);
+
       $.ajax({
         type: 'POST',
         url: "sendgrid.php",
         data: formData
       }).done(function(response) {
-        var message = "Processing ...";
-        $("#form-message").text(message);
         console.log( response );
         if(response == "success") {
           message = "Thanks for touching base! We will contact you soon."
