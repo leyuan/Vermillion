@@ -46,7 +46,7 @@
 	               	<div class="col-lg-8 col-md-8 col-sm-8 col-xs-12">
 	                   	<div class="contact-form">
                        	<form action="/mail" class="thm-contact-form" method="GET" id="get-in-touch-form">
-                          <input name="name" type="text" placeholder="Company Name / Your Name">
+                          <input name="name" type="text" placeholder="Your Name">
                           <input name="email" type="text" placeholder="Email Address">
                           <input name="phone" type="text" placeholder="Phone No.">
                           <textarea name="message" placeholder="Message"></textarea>

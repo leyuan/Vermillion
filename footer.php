@@ -45,7 +45,7 @@
       var formData = $("#get-in-touch-form").serialize();
       $.ajax({
         type: 'POST',
-        url: "mail.php",
+        url: "sendgrid.php",
         data: formData
       }).done(function(response) {
         var message = "Processing ...";
