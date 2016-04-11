@@ -1,23 +1,17 @@
 <?php
 require 'PHPMailer/PHPMailerAutoload.php';
 
-// if ($_SERVER["REQUEST_METHOD"] == "POST") {
-    // fake
-$name_from = "User";
-$email_from = "user@mailinator.com";
-$phone = "123456";
-$message = "message";
-    // fake end
-    // $name_from = strip_tags(trim($_POST["name"]));
-    // $name_from = str_replace(array("\r","\n"),array(" "," "), $name_from);
-    // $email_from = filter_var(trim($_POST["email"]), FILTER_SANITIZE_EMAIL);
-    // $phone = trim($_POST["phone"]);
-    // $message = trim($_POST["message"]);
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
+    $name_from = strip_tags(trim($_POST["name"]));
+    $name_from = str_replace(array("\r","\n"),array(" "," "), $name_from);
+    $email_from = filter_var(trim($_POST["email"]), FILTER_SANITIZE_EMAIL);
+    $phone = trim($_POST["phone"]);
+    $message = trim($_POST["message"]);
 
-    // if ( empty($name_from) OR empty($message) OR !filter_var($email_from, FILTER_VALIDATE_EMAIL)) {
-    //     echo "bad request";
-    //     exit;
-    // }
+    if ( empty($name_from) OR empty($message) OR !filter_var($email_from, FILTER_VALIDATE_EMAIL)) {
+        echo "bad request";
+        exit;
+    }
 
     $mail = new PHPMailer(true);
 
@@ -43,10 +37,10 @@ $message = "message";
         $mail->Send();
         echo "success";
     } catch(Exception $e){
-        var_dump($e);
-        echo "fail";
+        // var_dump($e);
+        echo "fail"
     }
-// }
+}
 
 
 ?>
