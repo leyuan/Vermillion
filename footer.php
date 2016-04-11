@@ -42,7 +42,6 @@
     var pgwSlideshow = $('.pgwSlideshow').pgwSlideshow(config);
     $("#get-in-touch-form").submit( function(event){
       event.preventDefault();
-      console.log( 'submit' );
       var formData = $("#get-in-touch-form").serialize();
       $.ajax({
         type: 'POST',
@@ -51,6 +50,7 @@
       }).done(function(response) {
         var message = "Processing ...";
         $("#form-message").text(message);
+        console.log( response );
         if(response == "success") {
           message = "Thanks for touching base! We will contact you soon."
           $("get-in-touch-form").trigger("reset");
