@@ -171,6 +171,13 @@ p {
 	display: none;
 }
 
+#form-message {
+	margin-top: 20px;
+	color: #069;
+	font-size: 16px;
+	font-weight: 700;
+}
+
 #footer {
 	display: block;
 	padding-top: 60px;

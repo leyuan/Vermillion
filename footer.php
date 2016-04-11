@@ -31,6 +31,43 @@
     </div>
   </div>
 </section>
+<!-- <script src="assets/js/jquery.min.js"></script> -->
+<script src="assets/js/jquery.min.js"></script>
+<script src="assets/js/pgwslideshow.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() {
+    var config = {
+      maxHeight: 700
+    };
+    var pgwSlideshow = $('.pgwSlideshow').pgwSlideshow(config);
+    $("#get-in-touch-form").submit( function(event){
+      event.preventDefault();
+      console.log( 'submit' );
+      var formData = $("#get-in-touch-form").serialize();
+      $.ajax({
+        type: 'POST',
+        url: "mail.php",
+        data: formData
+      }).done(function(response) {
+        var message = "Processing ...";
+        $("#form-message").text(message);
+        if(response == "success") {
+          message = "Thanks for touching base! We will contact you soon."
+          $("get-in-touch-form").trigger("reset");
+        } else if (response == "bad request") {
+          message = "Something is wrong with your request, please check and try again."
+        } else {
+          message = "Oops.. Something went wrong, please give us a call.";
+        }
+        $("#form-message").text(message);
+      }).fail(function(error) {
+        $("#form-message").text("Oops.. An error has occured, please give us a call.");
+      })
+    });
+  });
+</script>
+</head>
+
 <!-- Placed at the end of the document so the pages load faster -->
 <script src="assets/js/bootstrap.min.js"></script>
 <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->

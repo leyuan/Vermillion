@@ -45,14 +45,15 @@
                    </div>
 	               	<div class="col-lg-8 col-md-8 col-sm-8 col-xs-12">
 	                   	<div class="contact-form">
-	                       	<form action="/mail" class="thm-contact-form" method="GET">
-	                           	<input name="name" type="text" placeholder="Company Name / Your Name">
-	                               <input name="email" type="text" placeholder="Email Address">
-	                               <input name="phone" type="text" placeholder="Phone No.">
-	                               <textarea name="message" placeholder="Message"></textarea>
-	                               <button type="submit">Submit Now <i class="fa fa-arrow-right"></i></button>
-	                           </form>
-	                       </div>
+                       	<form action="/mail" class="thm-contact-form" method="GET" id="get-in-touch-form">
+                          <input name="name" type="text" placeholder="Company Name / Your Name">
+                          <input name="email" type="text" placeholder="Email Address">
+                          <input name="phone" type="text" placeholder="Phone No.">
+                          <textarea name="message" placeholder="Message"></textarea>
+                          <button type="submit">Submit Now <i class="fa fa-arrow-right"></i></button>
+                        </form>
+                        <p id="form-message"></p>
+                      </div>
 	                   </div>
 	                   <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 address">
 	                   	<div class="contact-right text-left">
@@ -78,5 +79,8 @@
 		<?php
 		include_once("footer.php");
 		?>
+		<script>
+
+		</script>
 	</body>
   </html>
