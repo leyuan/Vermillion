@@ -128,7 +128,11 @@ p {
 }
 
 .navbar-inverse .navbar-toggle .icon-bar {
-  background-color: #5C5C5C;
+  background-color: #BC1A1A !important;
+}
+
+.navbar-inverse .navbar-toggle {
+	border-color: #BC1A1A !important;
 }
 
 .navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:hover, .navbar-inverse .navbar-nav>.active>a:focus {
@@ -141,10 +145,10 @@ p {
   background-color: transparent;
 }
 
-.navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:focus {
+/*.navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:focus {
   background-color: #BC1A1A;
   border-color: transparent;
-}
+}*/
 
 .btn-trans {
 	background-color: transparent;
@@ -208,9 +212,8 @@ p {
 }
 
 #footer .info	{
-	margin-top: 0 auto;
+	margin-top: 20px;
 	padding-left: 7%;
-	text-align: left;
 	color: white;
 }
 
@@ -285,7 +288,7 @@ p {
 	display: inline-block;
 	padding: 10px;
 	width: 60%;
-	height: 170px;
+	/*height: 170px;*/
 	border: 8px solid;
 	background-color: rgba(35, 35, 37, 0.6);
 
@@ -673,7 +676,7 @@ p {
 }
 
 .suite-text-container {
-	padding-top: 80px;
+	padding-top: 50px;
 	float: right;
 }
 
@@ -1005,7 +1008,6 @@ input:checked + label {
   margin: 0 10px;
 }
 
-
 #map-area {
     position: relative;
 }
@@ -1020,20 +1022,70 @@ input:checked + label {
     width: 100%;
 }
 
-@media screen and (max-width: 650px) {
+sqt {
+	display: block;
+}
+
+@media screen and (max-width: 768px) {
   label {
-    font-size: 0;
+    font-size: 1em;
   }
-  label:before {
-    margin: 0;
-    font-size: 18px;
-  }
+
   .small-show {
   	display: block;
   }
+
   #footer .container {
   	width: 95%;
+  	text-align: center !important;
   }
+
+  .home-jumbotron > div > .head {
+  	width: 90%;
+	}
+
+	.navbar-nav > li {
+		border: 1px solid;
+		background: grey
+	}
+
+	.tab-content {
+		padding-left: 0;
+	}
+
+	.home-jumbotron > div > .head > h2 {
+		font-size: 2em;
+	}
+
+	.suite-intro-container, .fp-fp-container  {
+		padding-right: 0;
+	}
+
+	.suite-image {
+		float: none;
+	}
+
+	.floor-selector-container > ul {
+		text-align: center;
+	}
+
+	.floor-selector-container > ul > li {
+    margin-bottom: 30px;
+    display: inline-block;
+    margin: 18px;
+  }
+
+  sqt {
+  	display: none;
+  }
+
+  .suite-clickable.active > span {
+  	padding: 0;
+	}
+
+	.suite-text-container {
+		padding-top: 0;
+	}
 }
 
 @media screen and (max-width: 400px) {
