@@ -59,14 +59,14 @@
 	                   	<div class="contact-right text-left">
 	                           <h4>Redleaf Group</h4>
 	                           <p>
-	                               10611 116 STREET NW,<br>
-	                               Edmonton AB, Canada, ###zip-code<br>
+	                               10351 92 Street NW,<br>
+	                               Edmonton AB, Canada, T5H 0E4<br>
 	                               Phone:<br>
-	                               Troy - +1 780-xxx-xxxx <br>
-	                               Chuchu - +1 780-xxx-xxxx
+	                               780.475.5999 <br>
+	                               <!-- Chuchu - +1 780-xxx-xxxx -->
 	                           </p>
 	                           <p>
-	                               E-mail: your-company@gmail.com<br>
+	                               E-mail: info@redleafcanada.com<br>
 	                               Website: www.vermillioncondos.com
 	                           </p>
 	                           <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3524.253825418655!2d-113.56881072362185!3d53.43799073978277!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x53a01e376cc093d5%3A0x162fd5975a58971f!2s5421+Mcluhan+End+NW%2C+Edmonton%2C+AB+T6R+0P8!5e0!3m2!1sen!2sca!4v1454680050205" width="100%" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
