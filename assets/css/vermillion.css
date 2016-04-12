@@ -956,15 +956,7 @@ input:checked + label {
   /*background: #f1f1f1 none repeat scroll 0 0;*/
   position: relative;
 }
-.contact-right::before {
-  /*border: 1px solid #ffffff;*/
-  content: "";
-  left: 10px;
-  position: absolute;
-  right: 10px;
-  top: 10px;
-  bottom: 10px;
-}
+
 .contact-right-img {
   padding-top: 35px;
   position: relative;
