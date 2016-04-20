@@ -38,6 +38,11 @@
 
 	   	<div class="container" id="contact-area">
 	       	<div class="row">
+							<!-- <div class="contact">
+								<h4>
+									Redleaf Group is established in 1992, and one of its subsidiaries Redleaf Enterprises Inc. has been dedicated to the importation and exportation of building material. In addition, Redleaf is the first Canadian company to introduce North American wood frame houses, multi-storey light-weight steel condos and high-rises to China. Now Redleaf returns to where everything gets started, the Readleaf Properties Ltd. is ready to bring the best living experience to people Edmonton and Canada.
+								</h4>
+							</div> -->
 	           	<div class="contact">
 	               	<div class="section-title text-center">
                        <h4>You are welcome to Email us with any questions, inquiries or orders. <br>
