@@ -25,7 +25,7 @@
     </div>
 
     <div class="info">
-      <p>(+1)780-123-4567</p>
+      <p>+1 (780)-475-5999</p>
       <p>10611 116 STREET NW, EDMONTON</p>
       <p>COPYRIGHT © RED LEAF LTD. 2016. ALL RIGHTS RESERVED.</p>
     </div>

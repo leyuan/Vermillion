@@ -15,7 +15,7 @@
 				<!-- <li class="nav-item nav-homes"><a href="home.php">Home</a></li> -->
 				<li class="nav-item nav-Floorplans"><a href="floor-plan.php">FLOOR PLANS</a></li>
 				<!-- <li class="nav-item nav-about"><a href="team.php">Our Team</a></li> -->
-				<li class="nav-item nav-contact"><a href="about-us.php">ABOUT US</a></li>
+				<!-- <li class="nav-item nav-contact"><a href="about-us.php">ABOUT US</a></li> -->
 
 				<li class="nav-item nav-contact"><a href="get-in-touch.php">GET IN TOUCH</a></li>
 			</ul>

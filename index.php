@@ -73,20 +73,18 @@
 						  <input id="tab4" type="radio" name="tabs" class="tabs">
 						  <label for="tab4">Bathroom</label>
 
-						  <input id="tab5" type="radio" name="tabs" class="tabs">
-						  <label for="tab5">Utilities</label>
-
-  						  <input id="tab6" type="radio" name="tabs" class="tabs">
-						  <label for="tab6">Security</label>
+  						<input id="tab5" type="radio" name="tabs" class="tabs">
+		          <label for="tab5">Security</label>
 
 						  <section id="content1" class="tab-content">
 							<ul>
 							    <li>Contemporary architecture design by Brian Allsopp </li>
-							    <li>5 stories condominium residences</li>
+                  <li>Concrete and steel construction</li>
 							    <li>One bedroom, two bedroom, and three bedroom floor plans</li>
-							    <li>Landscaping</li>
-							    <li>Concrete and steel construction</li>
+                  <li>Two storey loft with roof top deck available</li>
+                  <li>High performance Low E windows</li>
 							    <li>Brick and culture stone exterior </li>
+                  <li>Independent air heating and air condition in every unit</li>
 							    <li>Protected and Insured by Blanket Home Warranty</li>
 							</ul>
 						  </section>
@@ -95,7 +93,7 @@
 							<ul>
 								<li>Your choice of two distinctive color with contemporary interior design </li>
 								<li>Over-height ceiling of 10’ for all units in most area </li>
-								<li>Engineering hardwood floor in all living areas, kitchen, and bedroom </li>
+                <li>All high grade laminated floor and tile all through</li>
 								<li>High quality ceramic tile floors in bathrooms and laundry room</li>
 								<li>Contemporary brushed nickel finished hardware throughout</li>
 								<li>Samsung stackable front load washer/dryer</li>
@@ -109,14 +107,12 @@
 								<li>Contemporary kitchen cabinet with soft close feature</li>
 								<li>Quartz countertops with stainless steel sinks with extended eating bar</li>
 								<li>Brush nickel single lever faucet with pull-out spray</li>
-								<li>Incandescent lighting package</li>
 							</ul>
 						  </section>
 
 						  <section id="content4" class="tab-content">
 							<ul>
-								<li>Marble countertops in bathrooms</li>
-								<li>Ceramic tile shower surrounds</li>
+								<li>Quartz countertops in bathrooms</li>
 								<li>Contemporary cabinetry with brushed nickel door hardware</li>
 								<li>Contemporary brushed nickel shower hardware</li>
 								<li>Brushed nickel faucets and chrome bath accessories</li>
@@ -125,24 +121,11 @@
 
 						  <section id="content5" class="tab-content">
 							<ul>
-								<li>High performance Low E windows </li>
-								<li>Lobby (Material, Design)</li>
-								<li>Build-in Gym and meeting area</li>
-								<li>Independent air heating and air conditioning in every unit </li>
-								<li>88 heated underground residential parking stalls and 11 surface visitor parking stalls</li>
+								<li>Complete sprinkle and smoke detectors</li>
+								<li>Convenient keyless lobby system</li>
+								<li>High security surveillance system</li>
 							</ul>
-					      </section>
-
-  						  <section id="content6" class="tab-content">
-							<ul>
-								<li>Marble countertops in bathrooms</li>
-								<li>Ceramic tile shower surrounds</li>
-								<li>Contemporary cabinetry with brushed nickel door hardware</li>
-								<li>Contemporary brushed nickel shower hardware</li>
-								<li>Brushed nickel faucets and chrome bath accessories</li>
-							</ul>
-					      </section>
-
+				      </section>
 						</main>
 			   	 	</div>
    	 		</div>
