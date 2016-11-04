@@ -16,10 +16,10 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $email_content = "Name: $name_from\n\n";
     $email_content .= "Email: $email_from\n\n";
     $email_content .= "Message:\n\n$message\n\n";
-    $sendgrid = new SendGrid('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');
+    $sendgrid = new SendGrid('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');
     $email = new SendGrid\Email();
     $email
-        ->addTo('vermillion@mailinator.com')
+        ->addTo('info@redleafcanada.com')
         ->setFrom($email_from)
         ->setSubject('New Message From Website')
         ->setText("$email_content")

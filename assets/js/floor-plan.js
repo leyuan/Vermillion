@@ -57,8 +57,13 @@ var update_suite_intro = function(floor, suite_number, suite){
 	// console.log( "suite -> "+suite );
 	$.each(suiteInfo, function(suite_name, suite_details_arr) {
 		if(suite == suite_name) {
-			$("#suite-type").html(suite_details_arr[0]);
-			room_avai_text = "Suite  "+suite_number+" : "+"Availabele";
+			var suiteType = suite_details_arr[0];
+			$("#suite-type").html(suiteType);
+			$(".suite-type-intro").hide();
+			$("#"+suiteType).show();
+			console.log(suite_details_arr);
+			// room_avai_text = "Suite  "+suite_number+" : "+"Availabele";
+			room_avai_text = "Suite  "+suite_number;
 			$("#room-availability").html(room_avai_text);
 			$("#suite-image").attr('src', suite_details_arr[2]);
 			if(suite_details_arr[0] == "Suite-C2"){
@@ -72,5 +77,3 @@ var update_suite_intro = function(floor, suite_number, suite){
 	});
 
 }
-
-

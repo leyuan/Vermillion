@@ -714,9 +714,12 @@ p {
 	margin-bottom: 10px;
 }
 
-.main-text {
+/*.main-text {
 	margin-top: 20px;
 	margin-bottom: 20px;
+}*/
+.features-intro-container {
+	margin-top: 20px;
 }
 
 .suite-recommendation-number {

@@ -72,7 +72,7 @@
 									<span class="status-available"></span>
 									<span class="suite-number">104</span>
 								</span><br />
-								SUITE B2
+								SUITE B
 								<sqt>970 SQ. FT.</sqt>
 							</p>
 						</span>
@@ -102,8 +102,8 @@
 									<span class="status-available"></span>
 									<span class="suite-number">107</span>
 								</span><br />
-								SUITE C4
-								<sqt>1085 SQ. FT.</sqt>
+								SUITE C
+								<sqt>1097 SQ. FT.</sqt>
 							</p>
 						</span>
 					</div>
@@ -149,7 +149,7 @@
 									<span class="suite-number">103</span>
 								</span><br />
 								SUITE A
-								<sqt>1420 SQ. FT.</sqt>
+								<sqt>1432 SQ. FT.</sqt>
 							</p>
 						</span>
 						<span class="col-two">
@@ -159,7 +159,7 @@
 									<span class="suite-number">102</span>
 								</span><br/>
 								SUITE C
-								<sqt>1085 SQ. FT.</sqt>
+								<sqt>1097 SQ. FT.</sqt>
 							</p>
 						</span>
 						<span class="col-three">
@@ -172,7 +172,7 @@
 									<span class="suite-number">110</span>
 								</span><br />
 								SUITE C
-								<sqt>1085 SQ. FT.</sqt>
+								<sqt>1097 SQ. FT.</sqt>
 							</p>
 						</span>
 						<span class="col-five">
@@ -182,7 +182,7 @@
 									<span class="suite-number">109</span>
 								</span><br />
 								SUITE C
-								<sqt>1085 SQ. FT.</sqt>
+								<sqt>1097 SQ. FT.</sqt>
 							</p>
 						</span>
 					</div>
@@ -200,8 +200,8 @@
 									<span class="status-available"></span>
 									<span class="suite-number">205</span>
 								</span><br />
-								SUITE C1
-								<sqt>1077 SQ. FT.</sqt>
+								SUITE F
+								<sqt>1099 SQ. FT.</sqt>
 							</p>
 						</span>
 						<span class="col-two">
@@ -210,7 +210,7 @@
 									<span class="status-available"></span>
 									<span class="suite-number">206</span>
 								</span><br />
-								SUITE B2
+								SUITE B
 								<sqt>970 SQ. FT.</sqt>
 							</p>
 						</span>
@@ -240,8 +240,8 @@
 									<span class="status-available"></span>
 									<span class="suite-number">209</span>
 								</span><br />
-								SUITE C4
-								<sqt>1085 SQ. FT.</sqt>
+								SUITE C
+								<sqt>1097 SQ. FT.</sqt>
 							</p>
 						</span>
 					</div>
@@ -295,7 +295,7 @@
 									<span class="suite-number">203</span>
 								</span><br />
 								SUITE C
-								<sqt>1085 SQ. FT.</sqt>
+								<sqt>1096 SQ. FT.</sqt>
 							</p>
 						</span>
 						<span class="col-two">
@@ -305,7 +305,7 @@
 									<span class="suite-number">202</span>
 								</span><br />
 								SUITE C
-								<sqt>1085 SQ. FT.</sqt>
+								<sqt>1097 SQ. FT.</sqt>
 							</p>
 						</span>
 						<span class="col-three">
@@ -318,7 +318,7 @@
 									<span class="suite-number">212</span>
 								</span><br />
 								SUITE C
-								<sqt>1085 SQ. FT.</sqt>
+								<sqt>1097 SQ. FT.</sqt>
 							</p>
 						</span>
 						<span class="col-five">
@@ -328,7 +328,7 @@
 									<span class="suite-number">211</span>
 								</span><br />
 								SUITE C
-								<sqt>1085 SQ. FT.</sqt>
+								<sqt>1097 SQ. FT.</sqt>
 							</p>
 						</span>
 					</div>
@@ -346,8 +346,8 @@
 									<span class="status-available"></span>
 									<span class="suite-number">305</span>
 								</span><br />
-								SUITE C1
-								<sqt>1077 SQ. FT.</sqt>
+								SUITE F
+								<sqt>1099 SQ. FT.</sqt>
 							</p>
 						</span>
 						<span class="col-two">
@@ -356,7 +356,7 @@
 									<span class="status-available"></span>
 									<span class="suite-number">306</span>
 								</span><br />
-								SUITE B2
+								SUITE B
 								<sqt>970 SQ. FT.</sqt>
 							</p>
 						</span>
@@ -386,8 +386,8 @@
 									<span class="status-available"></span>
 									<span class="suite-number">309</span>
 								</span><br />
-								SUITE C4
-								<sqt>1085 SQ. FT.</sqt>
+								SUITE C
+								<sqt>1097 SQ. FT.</sqt>
 							</p>
 						</span>
 					</div>
@@ -441,7 +441,7 @@
 									<span class="suite-number">303</span>
 								</span><br />
 								SUITE C
-								<sqt>1085 SQ. FT.</sqt>
+								<sqt>1096 SQ. FT.</sqt>
 							</p>
 						</span>
 						<span class="col-two">
@@ -451,7 +451,7 @@
 									<span class="suite-number">302</span>
 								</span><br />
 								SUITE C
-								<sqt>1085 SQ. FT.</sqt>
+								<sqt>1097 SQ. FT.</sqt>
 							</p>
 						</span>
 						<span class="col-three">
@@ -464,7 +464,7 @@
 									<span class="suite-number">312</span>
 								</span><br />
 								SUITE C
-								<sqt>1085 SQ. FT.</sqt>
+								<sqt>1097 SQ. FT.</sqt>
 							</p>
 						</span>
 						<span class="col-five">
@@ -474,7 +474,7 @@
 									<span class="suite-number">311</span>
 								</span><br />
 								SUITE C
-								<sqt>1085 SQ. FT.</sqt>
+								<sqt>1097 SQ. FT.</sqt>
 							</p>
 						</span>
 					</div>
@@ -777,26 +777,164 @@
 		<div class="sub-row suite-intro-container" id="suite-section">
 			<div class="col-md-5 default-font suite-text-container">
 				<h4 class="suite-type" id="suite-type">SUITE-C</h4>
-				<p class="room-availability" id="room-availability">Main  101 : Available</p>
-				<p class="room-bath"> 2 Bedrooms | 2 Baths </p>
-				<p class="main-text">
-				749(suite) + 303(balcony) = 1052 FT&sup2; total | The Passionate is a two bedroom
-				suite with a modern sliding privatcy glass wall in both bedrooms which open up the space
-				during the day. An expandable island table transfroms the spcae for easy entertaining.
-				The large balcony brings entertaining outdoors too! Choose from a variety of module and a
-				la carte options to transform this space to suit your lifestyle.
-				</p>
-				<h4 class="suite-recommendation">Recommendation</h4>
-				<p class="floor-recommendation">6th Floor <span class="suite-recommendation-number">601 605 611</span></p>
-				<p class="floor-recommendation">5th Floor <span class="suite-recommendation-number"></span></p>
-				<p class="floor-recommendation">4th Floor <span class="suite-recommendation-number">401 405 410 411</span></p>
-				<p class="floor-recommendation">3th Floor <span class="suite-recommendation-number">307</span></p>
-				<p class="floor-recommendation">2th Floor <span class="suite-recommendation-number">201 209</span></p>
-				<p class="floor-recommendation">1th Floor <span class="suite-recommendation-number">102 109 110</span></p>
+				<!-- <p class="room-availability" id="room-availability">Main  101</p> -->
+				<div id="Suite-A" class="suite-type-intro">
+					<div class="features-intro-container">
+						<p class="room-bath"> 3 bedrooms plus a large den </p>
+						<p><b>Features</b></p>
+						<p class="main-text">
+							<li>Spacious living area with contemporary fireplace</li>
+							<li>Insuite laundry room with sink and cabinets</li>
+							<li>Luxurious master bedroom with walk through closet and ensuite bathroom</li>
+							<li>Contemporary kitchen with deluxe eating bar</li>
+						</p>
+					</div>
+
+					<div class="units-intro-container">
+						<p><b>Units</b></p>
+						<p class="floor-recommendation">1th Floor <span class="suite-recommendation-number">103</span></p>
+					</div>
+				</div>
+
+				<div id="Suite-B" class="suite-type-intro">
+					<div class="features-intro-container">
+						<p class="room-bath"> 2 bedrooms with 2 full bathrooms </p>
+						<p><b>Features</b></p>
+						<p class="main-text">
+							<li>Spacious living area with contemporary fireplace</li>
+							<li>Insuite laundry room with sink and cabinets</li>
+							<li>Luxurious master bedroom with walk through closet and ensuite bathroom</li>
+							<li>Contemporary kitchen with deluxe eating bar</li>
+							<li>2 storey open living area available for 5th floor units</li>
+						</p>
+					</div>
+
+					<div class="units-intro-container">
+						<p><b>Units</b></p>
+						<p class="floor-recommendation">4th Floor
+							<span class="suite-recommendation-number">404 406 407 408 410</span>
+						</p>
+						<p class="floor-recommendation">3th Floor
+							<span class="suite-recommendation-number">304 306 307 308 310</span>
+						</p>
+						<p class="floor-recommendation">2th Floor
+							<span class="suite-recommendation-number">204 206 207 208 210</span>
+						</p>
+						<p class="floor-recommendation">1th Floor
+							<span class="suite-recommendation-number">104 105 106 108</span>
+						</p>
+					</div>
+				</div>
+
+				<div id="Suite-C" class="suite-type-intro">
+					<div class="features-intro-container">
+						<p class="room-bath"> 2 bedrooms with 2 full bathrooms </p>
+						<p><b>Features</b></p>
+						<p class="main-text">
+							<li>Corner unit with large window coverage</li>
+							<li>Spacious living area with contemporary fireplace</li>
+							<li>Insuite laundry room with sink and cabinets</li>
+							<li>Luxurious master bedroom with walk through closet and ensuite bathroom</li>
+							<li>Contemporary kitchen with deluxe eating bar</li>
+						</p>
+					</div>
+
+					<div class="units-intro-container">
+						<p><b>Units</b></p>
+						<p class="floor-recommendation">4th Floor <span class="suite-recommendation-number">402 403 409 411 412</span></p>
+						<p class="floor-recommendation">3th Floor <span class="suite-recommendation-number">302 303 309 311 312</span></p>
+						<p class="floor-recommendation">2th Floor <span class="suite-recommendation-number">202 203 209 211 212</span></p>
+						<p class="floor-recommendation">1th Floor <span class="suite-recommendation-number">102 107 109 110</span></p>
+					</div>
+				</div>
+
+				<div id="Suite-D" class="suite-type-intro">
+					<div class="features-intro-container">
+						<p class="room-bath"> 1 bedroom plus den with 2 full bathrooms </p>
+						<p><b>Features</b></p>
+						<p class="main-text">
+							<li>Spacious living area with contemporary fireplace</li>
+							<li>Insuite laundry room</li>
+							<li>Luxurious bedroom with walk through closet and ensuite bathroom</li>
+							<li>Contemporary kitchen with deluxe eating bar</li>
+						</p>
+					</div>
+
+					<div class="units-intro-container">
+						<p><b>Units</b></p>
+						<p class="floor-recommendation">5th Floor <span class="suite-recommendation-number">501</span></p>
+						<p class="floor-recommendation">4th Floor <span class="suite-recommendation-number">401</span></p>
+						<p class="floor-recommendation">3th Floor <span class="suite-recommendation-number">301</span></p>
+						<p class="floor-recommendation">2th Floor <span class="suite-recommendation-number">201</span></p>
+						<p class="floor-recommendation">1th Floor <span class="suite-recommendation-number">101</span></p>
+					</div>
+				</div>
+
+				<div id="Suite-D1" class="suite-type-intro">
+					<div class="features-intro-container">
+						<p class="room-bath"> 1 bedroom plus den with 2 full bathrooms </p>
+						<p><b>Features</b></p>
+						<p class="main-text">
+							<li>Spacious living area with contemporary fireplace</li>
+							<li>Insuite laundry room</li>
+							<li>Luxurious bedroom with walk through closet and ensuite bath</li>
+							<li>Contemporary kitchen with deluxe eating bar</li>
+						</p>
+					</div>
+
+					<div class="units-intro-container">
+						<p><b>Units</b></p>
+						<p class="floor-recommendation">5th Floor <span class="suite-recommendation-number">513</span></p>
+						<p class="floor-recommendation">4th Floor <span class="suite-recommendation-number">413</span></p>
+						<p class="floor-recommendation">3th Floor <span class="suite-recommendation-number">313</span></p>
+						<p class="floor-recommendation">2th Floor <span class="suite-recommendation-number">213</span></p>
+					</div>
+				</div>
+
+				<div id="Suite-E" class="suite-type-intro">
+					<div class="features-intro-container">
+						<p class="room-bath"> 1 bedroom unit with 1.5 bathrooms </p>
+						<p><b>Features</b></p>
+						<p class="main-text">
+							<li>Spacious living area with contemporary fireplace</li>
+							<li>Insuite laundry room</li>
+							<li>Luxurious bedroom with walk through closet and ensuite bathroom</li>
+							<li>Contemporary kitchen with deluxe eating bar</li>
+						</p>
+					</div>
+
+					<div class="units-intro-container">
+						<p><b>Units</b></p>
+						<p class="floor-recommendation">1th Floor <span class="suite-recommendation-number">111</span></p>
+					</div>
+				</div>
+
+				<div id="Suite-F" class="suite-type-intro">
+					<div class="features-intro-container">
+						<p class="room-bath"> 2 bedrooms unit with 2 full bathrooms </p>
+						<p><b>Features</b></p>
+						<p class="main-text">
+							<li>Corner unit with large window coverage</li>
+							<li>Spacious living area with contemporary fireplace</li>
+							<li>Insuite laundry room with sink and cabinets</li>
+							<li>Luxurious bedroom with walk through closet and ensuite bathroom</li>
+							<li>Contemporary kitchen with deluxe eating bar</li>
+						</p>
+					</div>
+
+					<div class="units-intro-container">
+						<p><b>Units</b></p>
+						<p class="floor-recommendation">4th Floor <span class="suite-recommendation-number">405</span></p>
+						<p class="floor-recommendation">3rd Floor <span class="suite-recommendation-number">305</span></p>
+						<p class="floor-recommendation">2nd Floor <span class="suite-recommendation-number">205</span></p>
+					</div>
+				</div>
+
 			</div>
+
 			<div class="col-md-7">
 				<div>
-					<img src="assets/images/suite-A.jpg" alt="Suite-A-Image" class="center suite-image" id="suite-image">
+					<img src="assets/images/suite-C.jpg" alt="Suite-Image" class="center suite-image" id="suite-image">
 				</div>
 			</div>
 		</div>
@@ -834,47 +972,47 @@
 
 		var floorInfo = {
 			"Main": {
-				101: ['Suite C', 1065],
-				102: ['Suite A', 1420],
-				103: ['Suite D', 841],
-				104: ['Suite B2', 970],
+				101: ['Suite D', 841],
+				102: ['Suite C', 1097],
+				103: ['Suite A', 1432],
+				104: ['Suite B', 970],
 				105: ['Suite B', 970],
 				106: ['Suite B', 970],
-				107: ['Suite E', 686],
-				108: ['Suite C4', 1065],
-				109: ['Suite B', 970],
-				110: ['Suite C', 1065],
-				111: ['Suite C', 1065]
+				107: ['Suite C', 1097],
+				108: ['Suite B', 970],
+				109: ['Suite C', 1097],
+				110: ['Suite C', 1097],
+				111: ['Suite E', 686]
 			},
 			"2nd": {
-				201: ['Suite C'],
+				201: ['Suite D'],
 				202: ['Suite C'],
-				203: ['Suite D'],
+				203: ['Suite C'],
 				204: ['Suite B'],
-				205: ['Suite C1'],
-				206: ['Suite B2'],
+				205: ['Suite F'],
+				206: ['Suite B'],
 				207: ['Suite B'],
 				208: ['Suite B'],
-				209: ['Suite C4'],
+				209: ['Suite C'],
 				210: ['Suite B'],
-				211: ['Suite D1'],
+				211: ['Suite C'],
 				212: ['Suite C'],
-				213: ['Suite C']
+				213: ['Suite D1']
 			},
 			"3rd": {
-				301: ['Suite C'],
+				301: ['Suite D'],
 				302: ['Suite C'],
-				303: ['Suite D'],
+				303: ['Suite C'],
 				304: ['Suite B'],
-				305: ['Suite C1'],
-				306: ['Suite B2'],
+				305: ['Suite F'],
+				306: ['Suite B'],
 				307: ['Suite B'],
 				308: ['Suite B'],
-				309: ['Suite C4'],
+				309: ['Suite C'],
 				310: ['Suite B'],
-				311: ['Suite D1'],
+				311: ['Suite C'],
 				312: ['Suite C'],
-				313: ['Suite C']
+				313: ['Suite D1']
 			},
 			"4th": {
 				401: ['Suite C'],
@@ -920,8 +1058,13 @@
 			'Suite C1': ['Suite-C1', 1065, 'assets/images/suite-C.jpg'],
 			'Suite C4': ['Suite-C4', 1065, 'assets/images/suite-C.jpg'],
 			'Suite D': ['Suite-D', 841, 'assets/images/suite-D.png'],
-			'Suite E': ['Suite-E', 686, 'assets/images/suite-E.jpg']
-		}
+			'Suite D1': ['Suite-D1', 841, 'assets/images/suite-D1.jpg'],
+			'Suite E': ['Suite-E', 686, 'assets/images/suite-E.jpg'],
+			'Suite F' : ['Suite-F', 1099, 'assets/images/suite-C.jpg'],
+		};
+
+		$(".suite-type-intro").hide();
+		$("#Suite-C").show();
 	</script>
-	<script src="assets/js/temp.js"></script>
+	<script src="assets/js/floor-plan.js"></script>
   </html>
