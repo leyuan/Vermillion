@@ -827,6 +827,36 @@
 					</div>
 				</div>
 
+				<div id="Suite-B1" class="suite-type-intro">
+					<div class="features-intro-container">
+						<p class="room-bath"> 2 bedrooms with 2 full bathrooms </p>
+						<p><b>Features</b></p>
+						<p class="main-text">
+							<li>Spacious living area with contemporary fireplace</li>
+							<li>Insuite laundry room with sink and cabinets</li>
+							<li>Luxurious master bedroom with walk through closet and ensuite bathroom</li>
+							<li>Contemporary kitchen with deluxe eating bar</li>
+							<li>2 storey open living area available for 5th floor units</li>
+						</p>
+					</div>
+
+					<div class="units-intro-container">
+						<p><b>Units</b></p>
+						<p class="floor-recommendation">4th Floor
+							<span class="suite-recommendation-number">404 406 407 408 410</span>
+						</p>
+						<p class="floor-recommendation">3th Floor
+							<span class="suite-recommendation-number">304 306 307 308 310</span>
+						</p>
+						<p class="floor-recommendation">2th Floor
+							<span class="suite-recommendation-number">204 206 207 208 210</span>
+						</p>
+						<p class="floor-recommendation">1th Floor
+							<span class="suite-recommendation-number">104 105 106 108</span>
+						</p>
+					</div>
+				</div>
+
 				<div id="Suite-C" class="suite-type-intro">
 					<div class="features-intro-container">
 						<p class="room-bath"> 2 bedrooms with 2 full bathrooms </p>
@@ -1092,6 +1122,7 @@
 		var suiteInfo = {
 			'Suite A': ['Suite-A', 1420, 'assets/images/suite-A.png'],
 			'Suite B': ['Suite-B', 970, 'assets/images/suite-B.png'],
+			'Suite B1': ['Suite-B1', 970, 'assets/images/suite-B.png'],
 			'Suite C': ['Suite-C', 1065, 'assets/images/suite-C.png'],
 			'Suite C1': ['Suite-C1', 1065, 'assets/images/suite-C1.png'],
 			'Suite D': ['Suite-D', 841, 'assets/images/suite-D.png'],
