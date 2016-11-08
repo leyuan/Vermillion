@@ -506,7 +506,8 @@ p {
 .fp-fp-container {
 	padding-top: 40px;
 	padding-bottom: 40px;
-	padding-right: 10%;
+	padding-left: 5%;
+	padding-right: 5%;
 }
 
 .floor-selector-container {
@@ -679,7 +680,7 @@ p {
 
 /*Suite Intro Section*/
 .suite-intro-container {
-	padding-right: 10%;
+	/*padding-right: 10%;*/
 	padding-bottom: 60px;
 }
 

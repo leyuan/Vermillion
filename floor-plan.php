@@ -39,9 +39,6 @@
 		<div class="sub-row fp-fp-container">
 			<div class="col-md-2 floor-selector-container">
 				<ul>
-<!-- 					<li>
-						<a class="floor-selector" data-floor="sixth-container"> 6th Floor </a>
-					</li> -->
 					<li>
 						<a class="floor-selector" data-floor="fifth-container"> 5th Floor </a>
 					</li>
@@ -492,8 +489,8 @@
 									<span class="status-available"></span>
 									<span class="suite-number">405</span>
 								</span><br />
-								SUITE C1
-								<sqt>1077 SQ. FT.</sqt>
+								SUITE F
+								<sqt>1099 SQ. FT.</sqt>
 							</p>
 						</span>
 						<span class="col-two">
@@ -532,8 +529,8 @@
 									<span class="status-available"></span>
 									<span class="suite-number">409</span>
 								</span><br />
-								SUITE C4
-								<sqt>1085 SQ. FT.</sqt>
+								SUITE C
+								<sqt>1097 SQ. FT.</sqt>
 							</p>
 						</span>
 					</div>
@@ -587,7 +584,7 @@
 									<span class="suite-number">403</span>
 								</span><br />
 								SUITE C
-								<sqt>1085 SQ. FT.</sqt>
+								<sqt>1096 SQ. FT.</sqt>
 							</p>
 						</span>
 						<span class="col-two">
@@ -597,7 +594,7 @@
 									<span class="suite-number">402</span>
 								</span><br />
 								SUITE C
-								<sqt>1085 SQ. FT.</sqt>
+								<sqt>1097 SQ. FT.</sqt>
 							</p>
 						</span>
 						<span class="col-three">
@@ -610,7 +607,7 @@
 									<span class="suite-number">412</span>
 								</span><br />
 								SUITE C
-								<sqt>1085 SQ. FT.</sqt>
+								<sqt>1097 SQ. FT.</sqt>
 							</p>
 						</span>
 						<span class="col-five">
@@ -620,14 +617,14 @@
 									<span class="suite-number">411</span>
 								</span><br />
 								SUITE C
-								<sqt>1085 SQ. FT.</sqt>
+								<sqt>1097 SQ. FT.</sqt>
 							</p>
 						</span>
 					</div>
 				</div>
 			</div>
 
-			<!-- Fourth Floor -->
+			<!-- Fifth Floor -->
 			<div class="container col-md-10 floor-img-container fifth-container">
 				<div class="floor-seond">
 					<img src="assets/images/fifth-floor.png" alt="Fifth floor Image" class="floor-img" />
@@ -638,8 +635,8 @@
 									<span class="status-available"></span>
 									<span class="suite-number">505</span>
 								</span><br />
-								SUITE C2
-								<sqt>1085 SQ. FT.</sqt>
+								SUITE F1
+								<sqt>1445 SQ. FT.</sqt>
 							</p>
 						</span>
 						<span class="col-two">
@@ -648,7 +645,7 @@
 									<span class="status-available"></span>
 									<span class="suite-number">506</span>
 								</span><br />
-								SUITE B2
+								SUITE B1
 								<sqt>970 SQ. FT.</sqt>
 							</p>
 						</span>
@@ -678,8 +675,8 @@
 									<span class="status-available"></span>
 									<span class="suite-number">509</span>
 								</span><br />
-								SUITE C2
-								<sqt>1085 SQ. FT.</sqt>
+								SUITE C1
+								<sqt>1432 SQ. FT.</sqt>
 							</p>
 						</span>
 					</div>
@@ -732,8 +729,8 @@
 									<span class="status-available"></span>
 									<span class="suite-number">503</span>
 								</span><br />
-								SUITE C2
-								<sqt>1085 SQ. FT.</sqt>
+								SUITE C1
+								<sqt>1432 SQ. FT.</sqt>
 							</p>
 						</span>
 						<span class="col-two">
@@ -742,8 +739,8 @@
 									<span class="status-available"></span>
 									<span class="suite-number">502</span>
 								</span><br />
-								SUITE C2
-								<sqt>1085 SQ. FT.</sqt>
+								SUITE C1
+								<sqt>1432 SQ. FT.</sqt>
 							</p>
 						</span>
 						<span class="col-three">
@@ -755,8 +752,8 @@
 									<span class="status-available"></span>
 									<span class="suite-number">512</span>
 								</span><br />
-								SUITE C2
-								<sqt>1085 SQ. FT.</sqt>
+								SUITE C1
+								<sqt>1432 SQ. FT.</sqt>
 							</p>
 						</span>
 						<span class="col-five">
@@ -765,17 +762,21 @@
 									<span class="status-available"></span>
 									<span class="suite-number">511</span>
 								</span><br />
-								SUITE C2
-								<sqt>1085 SQ. FT.</sqt>
+								SUITE C1
+								<sqt>1432 SQ. FT.</sqt>
 							</p>
 						</span>
 					</div>
 				</div>
 			</div>
+
+			<div class="container text-right">
+				<img src="assets/images/north.png" alt="north" style="width: 60px;"/>
+			</div>
 		</div>
 
 		<div class="sub-row suite-intro-container" id="suite-section">
-			<div class="col-md-5 default-font suite-text-container">
+			<div class="col-xs-12 col-sm-12 col-md-5 default-font suite-text-container" style="padding-left:30px; padding-right: 30px;">
 				<h4 class="suite-type" id="suite-type">SUITE-C</h4>
 				<!-- <p class="room-availability" id="room-availability">Main  101</p> -->
 				<div id="Suite-A" class="suite-type-intro">
@@ -845,6 +846,26 @@
 						<p class="floor-recommendation">3th Floor <span class="suite-recommendation-number">302 303 309 311 312</span></p>
 						<p class="floor-recommendation">2th Floor <span class="suite-recommendation-number">202 203 209 211 212</span></p>
 						<p class="floor-recommendation">1th Floor <span class="suite-recommendation-number">102 107 109 110</span></p>
+					</div>
+				</div>
+
+				<div id="Suite-C1" class="suite-type-intro">
+					<div class="features-intro-container">
+						<p class="room-bath"> 2 bedrooms + den with 2 full + 1 half bathrooms </p>
+						<p><b>Features</b></p>
+						<p class="main-text">
+							<li>Luxurious loft unit with rooftop deck</li>
+							<li>2 storey open living area with contemporary fireplace</li>
+							<li>2 bedrooms plus den with 2 full plus 1 half bath</li>
+							<li>Laundry with sink and cabinets</li>
+							<li>Luxurious master bedroom with walk through closet and 5-piece ensuite bath</li>
+							<li>Large Den with walk-in closet</li>
+						</p>
+					</div>
+
+					<div class="units-intro-container">
+						<p><b>Units</b></p>
+						<p class="floor-recommendation">5th Floor <span class="suite-recommendation-number">502 503 509 511 512</span></p>
 					</div>
 				</div>
 
@@ -930,11 +951,31 @@
 					</div>
 				</div>
 
+				<div id="Suite-F1" class="suite-type-intro">
+					<div class="features-intro-container">
+						<p class="room-bath"> 2 bedrooms + den with 2 full + 1 half bathrooms </p>
+						<p><b>Features</b></p>
+						<p class="main-text">
+							<li>Luxurious loft unit with rooftop deck</li>
+							<li>2 storey open living area with contemporary fireplace</li>
+							<li>2 bedrooms plus den with 2 full plus 1 half bath</li>
+							<li>Laundry with sink and cabinets</li>
+							<li>Luxurious master bedroom with walk through closet and 5-piece ensuite bath</li>
+							<li>Large Den with walk-in closet</li>
+						</p>
+					</div>
+
+					<div class="units-intro-container">
+						<p><b>Units</b></p>
+						<p class="floor-recommendation">5th Floor <span class="suite-recommendation-number">505</span></p>
+					</div>
+				</div>
+
 			</div>
 
-			<div class="col-md-7">
+			<div class="col-xs-12 col-sm-12 col-md-7" style="padding-top: 50px;">
 				<div>
-					<img src="assets/images/suite-C.jpg" alt="Suite-Image" class="center suite-image" id="suite-image">
+					<img src="assets/images/suite-C.png" alt="Suite-Image" class="center suite-image" id="suite-image">
 				</div>
 			</div>
 		</div>
@@ -1015,52 +1056,49 @@
 				313: ['Suite D1']
 			},
 			"4th": {
-				401: ['Suite C'],
+				401: ['Suite D'],
 				402: ['Suite C'],
-				403: ['Suite D'],
+				403: ['Suite C'],
 				404: ['Suite B'],
-				405: ['Suite C1'],
-				406: ['Suite B2'],
+				405: ['Suite F'],
+				406: ['Suite B'],
 				407: ['Suite B'],
 				408: ['Suite B'],
-				409: ['Suite C4'],
+				409: ['Suite C'],
 				410: ['Suite B'],
-				411: ['Suite D1'],
+				411: ['Suite C'],
 				412: ['Suite C'],
-				413: ['Suite C']
+				413: ['Suite D1']
 			},
 			"5th": {
-				501: ['Suite C2'],
-				502: ['Suite C2'],
-				503: ['Suite D'],
+				501: ['Suite D'],
+				502: ['Suite C1'],
+				503: ['Suite C1'],
 				504: ['Suite B1'],
-				505: ['Suite C2'],
-				506: ['Suite B2'],
+				505: ['Suite F1'],
+				506: ['Suite B1'],
 				507: ['Suite B1'],
 				508: ['Suite B1'],
-				509: ['Suite C2'],
+				509: ['Suite C1'],
 				510: ['Suite B1'],
-				511: ['Suite D1'],
-				512: ['Suite C2'],
-				513: ['Suite C2']
+				511: ['Suite C1'],
+				512: ['Suite C1'],
+				513: ['Suite D1']
 			}
 		};
 
 		//suiteInfo Signature
 		//['img-name','suite-size', 'suite-image', bedroom-bath-room']
 		var suiteInfo = {
-			'Suite A': ['Suite-A', 1420, 'assets/images/suite-A.jpg'],
-			'Suite B': ['Suite-B', 970, 'assets/images/suite-B.jpg'],
-			'Suite B1': ['Suite-B1', 970, 'assets/images/suite-B.jpg'],
-			'Suite B2': ['Suite-B2', 970, 'assets/images/suite-B.jpg'],
-			'Suite C': ['Suite-C', 1065, 'assets/images/suite-C.jpg'],
-			'Suite C2' : ['Suite-C2', 1085, 'assets/images/suite-C2.jpg'],
-			'Suite C1': ['Suite-C1', 1065, 'assets/images/suite-C.jpg'],
-			'Suite C4': ['Suite-C4', 1065, 'assets/images/suite-C.jpg'],
+			'Suite A': ['Suite-A', 1420, 'assets/images/suite-A.png'],
+			'Suite B': ['Suite-B', 970, 'assets/images/suite-B.png'],
+			'Suite C': ['Suite-C', 1065, 'assets/images/suite-C.png'],
+			'Suite C1': ['Suite-C1', 1065, 'assets/images/suite-C1.png'],
 			'Suite D': ['Suite-D', 841, 'assets/images/suite-D.png'],
-			'Suite D1': ['Suite-D1', 841, 'assets/images/suite-D1.jpg'],
-			'Suite E': ['Suite-E', 686, 'assets/images/suite-E.jpg'],
-			'Suite F' : ['Suite-F', 1099, 'assets/images/suite-C.jpg'],
+			'Suite D1': ['Suite-D1', 841, 'assets/images/suite-D1.png'],
+			'Suite E': ['Suite-E', 686, 'assets/images/suite-E.png'],
+			'Suite F' : ['Suite-F', 1099, 'assets/images/suite-F.png'],
+			'Suite F1' : ['Suite-F1', 1445, 'assets/images/suite-F1.png'],
 		};
 
 		$(".suite-type-intro").hide();
