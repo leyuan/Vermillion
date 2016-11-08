@@ -842,17 +842,8 @@
 
 					<div class="units-intro-container">
 						<p><b>Units</b></p>
-						<p class="floor-recommendation">4th Floor
-							<span class="suite-recommendation-number">404 406 407 408 410</span>
-						</p>
-						<p class="floor-recommendation">3th Floor
-							<span class="suite-recommendation-number">304 306 307 308 310</span>
-						</p>
-						<p class="floor-recommendation">2th Floor
-							<span class="suite-recommendation-number">204 206 207 208 210</span>
-						</p>
-						<p class="floor-recommendation">1th Floor
-							<span class="suite-recommendation-number">104 105 106 108</span>
+						<p class="floor-recommendation">5th Floor
+							<span class="suite-recommendation-number">504 506 507 508 510</span>
 						</p>
 					</div>
 				</div>
