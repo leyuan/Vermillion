@@ -67,7 +67,7 @@
 	                               10351 92 Street NW<br>
 	                               Edmonton AB, Canada, T5H 0E4<br>
 	                               Phone:
-	                               780.475.5999 <br>
+	                               <a href="tel:780-475-5999">780.475.5999</a><br>
 	                               <!-- Chuchu - +1 780-xxx-xxxx -->
 	                           </p>
 	                           <p>
