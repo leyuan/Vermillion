@@ -28,7 +28,7 @@
 			}
 			#map-canvas {
 				display: block;
-				height: 600px;
+				height:300px;
 				background-color: #CCC;
 			}
 		</style>
@@ -93,7 +93,7 @@
 	<script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
 	<script type="text/javascript">
 		jQuery(function(){
-			
+
 		});
 	</script>
 
@@ -105,8 +105,8 @@
 		function initialize(){
 			var mapCanvas = document.getElementById('map-canvas');
 		 	var mapOptions = {
-	          center: new google.maps.LatLng(53.5463017,-113.5206203),
-	          zoom: 16,
+	          center: new google.maps.LatLng(53.5491791,-113.5195819),
+	          zoom: 15,
 	          zoomControl: false,
 	          scaleControl: false,
 	          scrollwheel: false,
@@ -146,19 +146,24 @@
 						['TELUS', 53.545902, -113.516231],
 						['Kal Tire', 53.546052, -113.520239]
 					]
+				},
+				vermillion: {
+					label: 'Vermillion',
+					check: true,
+					icon: 'assets/images/logo-map-marker.png',
+					items: [
+						['Vermillion', 53.550272, -113.522974]
+					]
 				}
 			}
 
 			function addMarker() {
-				// console.log("add marker");
-				// console.log(places);
-				// console.log("details:"+places["restaurant"]["items"]);
 
 				$.each(places, function(key, value) {
-					console.log(key);
+					// console.log(key);
 
 					items = places[key]["items"];
-					console.log(items);
+					// console.log(items);
 
 					for (var i = 0; i < items.length; i ++) {
 						position = new google.maps.LatLng(items[i][1], items[i][2]);

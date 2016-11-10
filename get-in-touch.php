@@ -64,7 +64,7 @@
 	                   	<div class="contact-right text-left">
 	                           <h4>Redleaf Group</h4>
 	                           <p>
-	                               10351 92 Street NW,<br>
+	                               10351 92 Street NW<br>
 	                               Edmonton AB, Canada, T5H 0E4<br>
 	                               Phone:
 	                               780.475.5999 <br>

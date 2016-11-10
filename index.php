@@ -136,14 +136,14 @@
    	 			    <li><img src="assets/images/slider/thumb2.jpg" alt="" data-large-src="assets/images/slider/file2.jpg"></li>
    	 			    <li><img src="assets/images/slider/thumb3.jpg" alt="" data-large-src="assets/images/slider/file3.jpg"></li>
    	 			    <li><img src="assets/images/slider/thumb4.jpg" alt="" data-large-src="assets/images/slider/file4.jpg"></li>
-   	 			    <li><img src="assets/images/slider/thumb5.jpg" alt="" data-large-src="assets/images/slider/file5.jpg"></li>
+   	 			    <!-- <li><img src="assets/images/slider/thumb5.jpg" alt="" data-large-src="assets/images/slider/file5.jpg"></li>
    	 			    <li><img src="assets/images/slider/thumb6.jpg" alt="" data-large-src="assets/images/slider/file6.jpg"></li>
    	 			    <li><img src="assets/images/slider/thumb7.jpg" alt="" data-large-src="assets/images/slider/file7.jpg"></li>
    	 			    <li><img src="assets/images/slider/thumb8.jpg" alt="" data-large-src="assets/images/slider/file8.jpg"></li>
    	 			    <li><img src="assets/images/slider/thumb9.jpg" alt="" data-large-src="assets/images/slider/file9.jpg"></li>
    	 			    <li><img src="assets/images/slider/thumb10.jpg" alt="" data-large-src="assets/images/slider/file10.jpg"></li>
    	 			    <li><img src="assets/images/slider/thumb11.jpg" alt="" data-large-src="assets/images/slider/file11.jpg"></li>
-   	 			    <li><img src="assets/images/slider/thumb12.jpg" alt="" data-large-src="assets/images/slider/file12.jpg"></li>
+   	 			    <li><img src="assets/images/slider/thumb12.jpg" alt="" data-large-src="assets/images/slider/file12.jpg"></li> -->
    	 			</ul>
    	 		</div>
 		</div>

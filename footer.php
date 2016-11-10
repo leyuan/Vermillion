@@ -14,10 +14,10 @@
         <img src="assets/images/icons/floorplan.jpg" alt="">
         <p>FLOOR PLANS</p>
       </a>
-      <a href="about-us.php">
+      <!-- <a href="about-us.php">
         <img src="assets/images/icons/aboutus.jpg" alt="">
         <p>ABOUT US</p>
-      </a>
+      </a> -->
       <a href="get-in-touch.php">
         <img src="assets/images/icons/getintouch.jpg" alt="">
         <p>GET IN TOUCH</p>
