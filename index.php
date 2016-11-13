@@ -152,5 +152,39 @@
 	<?php
 		include_once("footer.php");
 	?>
+
+  <script type="text/javascript">
+    $(document).ready(function() {
+      var config = {
+        maxHeight: 700
+      };
+      var pgwSlideshow = $('.pgwSlideshow').pgwSlideshow(config);
+      $("#get-in-touch-form").submit( function(event){
+        event.preventDefault();
+        var formData = $("#get-in-touch-form").serialize();
+        var message = "Submitting ...";
+        $("#form-message").text(message);
+
+        $.ajax({
+          type: 'POST',
+          url: "sendgrid.php",
+          data: formData
+        }).done(function(response) {
+          console.log( response );
+          if(response == "success") {
+            message = "Thanks for touching base! We will contact you soon."
+            $("get-in-touch-form").trigger("reset");
+          } else if (response == "bad request") {
+            message = "Something is wrong with your request, please check and try again."
+          } else {
+            message = "Oops.. Something went wrong, please give us a call.";
+          }
+          $("#form-message").text(message);
+        }).fail(function(error) {
+          $("#form-message").text("Oops.. An error has occured, please give us a call.");
+        })
+      });
+    });
+  </script>
   </body>
 </html>

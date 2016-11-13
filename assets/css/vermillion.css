@@ -6,7 +6,7 @@ body {
 
 div {
 	display: block;
-	overflow: hidden;
+	/*overflow: hidden;*/
 }
 
 a:hover, a:focus {
@@ -19,6 +19,10 @@ p {
 /*Bootstrap Overwrite*/
 
 /*Class Shortcuts*/
+.sub-row {
+	overflow: hidden;
+}
+
 .hidden {
 	display: none;
 }
