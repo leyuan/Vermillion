@@ -155,9 +155,7 @@ p {
 }
 
 .logo {
-	font-size: 1.5em;
-	color: #BC1A1A !important;
-	font-weight: 500;
+	width: 100px;
 }
 
 /** Home Page **/
@@ -1082,6 +1080,10 @@ sqt {
   sqt {
   	display: none;
   }
+
+	.suite-type {
+		display: none;
+	}
 
   .suite-clickable.active > span {
   	padding: 0;

@@ -69,7 +69,7 @@
 									<span class="status-available"></span>
 									<span class="suite-number">104</span>
 								</span><br />
-								SUITE B
+								<span class="suite-type">SUITE B</span>
 								<sqt>970 SQ. FT.</sqt>
 							</p>
 						</span>
@@ -79,7 +79,7 @@
 									<span class="status-available"></span>
 									<span class="suite-number">105</span>
 								</span><br />
-								SUITE B
+								<span class="suite-type">SUITE B</span>
 								<sqt>970 SQ. FT.</sqt>
 							</p>
 						</span>
@@ -89,7 +89,7 @@
 									<span class="status-available"></span>
 									<span class="suite-number">106</span>
 								</span><br />
-								SUITE B
+								<span class="suite-type">SUITE B</span>
 								<sqt>970 SQ. FT.</sqt>
 							</p>
 						</span>
@@ -99,7 +99,7 @@
 									<span class="status-available"></span>
 									<span class="suite-number">107</span>
 								</span><br />
-								SUITE C
+								<span class="suite-type">SUITE C</span>
 								<sqt>1097 SQ. FT.</sqt>
 							</p>
 						</span>
@@ -113,7 +113,7 @@
 									<span class="status-available"></span>
 									<span class="suite-number">101</span>
 								</span><br />
-								SUITE D
+								<span class="suite-type">SUITE D</span>
 								<sqt>841 SQ. FT.</sqt>
 							</p>
 						</span>
@@ -123,7 +123,7 @@
 									<span class="status-available"></span>
 									<span class="suite-number">111</span>
 								</span><br />
-								SUITE E
+								<span class="suite-type">SUITE E</span>
 								<sqt>686 SQ. FT.</sqt>
 							</p>
 						</span>
@@ -133,7 +133,7 @@
 									<span class="status-available"></span>
 									<span class="suite-number">108</span>
 								</span><br />
-								SUITE B
+								<span class="suite-type">SUITE B</span>
 								<sqt>970 SQ. FT.</sqt>
 							</p>
 						</span>
@@ -145,7 +145,7 @@
 									<span class="status-available"></span>
 									<span class="suite-number">103</span>
 								</span><br />
-								SUITE A
+								<span class="suite-type">SUITE A</span>
 								<sqt>1432 SQ. FT.</sqt>
 							</p>
 						</span>
@@ -155,7 +155,7 @@
 									<span class="status-available"></span>
 									<span class="suite-number">102</span>
 								</span><br/>
-								SUITE C
+								<span class="suite-type">SUITE C</span>
 								<sqt>1097 SQ. FT.</sqt>
 							</p>
 						</span>
@@ -168,7 +168,7 @@
 									<span class="status-available"></span>
 									<span class="suite-number">110</span>
 								</span><br />
-								SUITE C
+								<span class="suite-type">SUITE C</span>
 								<sqt>1097 SQ. FT.</sqt>
 							</p>
 						</span>
@@ -178,7 +178,7 @@
 									<span class="status-available"></span>
 									<span class="suite-number">109</span>
 								</span><br />
-								SUITE C
+								<span class="suite-type">SUITE C</span>
 								<sqt>1097 SQ. FT.</sqt>
 							</p>
 						</span>
@@ -197,7 +197,7 @@
 									<span class="status-available"></span>
 									<span class="suite-number">205</span>
 								</span><br />
-								SUITE F
+								<span class="suite-type">SUITE F</span>
 								<sqt>1099 SQ. FT.</sqt>
 							</p>
 						</span>
@@ -207,7 +207,7 @@
 									<span class="status-available"></span>
 									<span class="suite-number">206</span>
 								</span><br />
-								SUITE B
+								<span class="suite-type">SUITE B</span>
 								<sqt>970 SQ. FT.</sqt>
 							</p>
 						</span>
@@ -217,7 +217,7 @@
 									<span class="status-available"></span>
 									<span class="suite-number">207</span>
 								</span><br />
-								SUITE B
+								<span class="suite-type">SUITE B</span>
 								<sqt>970 SQ. FT.</sqt>
 							</p>
 						</span>
@@ -227,7 +227,7 @@
 									<span class="status-available"></span>
 									<span class="suite-number">208</span>
 								</span><br />
-								SUITE B
+								<span class="suite-type">SUITE B</span>
 								<sqt>970 SQ. FT.</sqt>
 							</p>
 						</span>
@@ -237,7 +237,7 @@
 									<span class="status-available"></span>
 									<span class="suite-number">209</span>
 								</span><br />
-								SUITE C
+								<span class="suite-type">SUITE C</span>
 								<sqt>1097 SQ. FT.</sqt>
 							</p>
 						</span>
@@ -249,7 +249,7 @@
 									<span class="status-available"></span>
 									<span class="suite-number">204</span>
 								</span><br />
-								SUITE B
+								<span class="suite-type">SUITE B</span>
 								<sqt>970 SQ. FT.</sqt>
 							</p>
 						</span>
@@ -259,7 +259,7 @@
 									<span class="status-available"></span>
 									<span class="suite-number">201</span>
 								</span><br />
-								SUITE D
+								<span class="suite-type">SUITE D</span>
 								<sqt>841 SQ. FT.</sqt>
 							</p>
 						</span>
@@ -269,7 +269,7 @@
 									<span class="status-available"></span>
 									<span class="suite-number">213</span>
 								</span><br />
-								SUITE D1
+								<span class="suite-type">SUITE D1</span>
 								<sqt>807 SQ. FT.</sqt>
 							</p>
 						</span>
@@ -279,7 +279,7 @@
 									<span class="status-available"></span>
 									<span class="suite-number">210</span>
 								</span><br />
-								SUITE B
+								<span class="suite-type">SUITE B</span>
 								<sqt>970 SQ. FT.</sqt>
 							</p>
 						</span>
@@ -291,7 +291,7 @@
 									<span class="status-available"></span>
 									<span class="suite-number">203</span>
 								</span><br />
-								SUITE C
+								<span class="suite-type">SUITE C</span>
 								<sqt>1096 SQ. FT.</sqt>
 							</p>
 						</span>
@@ -301,7 +301,7 @@
 									<span class="status-available"></span>
 									<span class="suite-number">202</span>
 								</span><br />
-								SUITE C
+								<span class="suite-type">SUITE C</span>
 								<sqt>1097 SQ. FT.</sqt>
 							</p>
 						</span>
@@ -314,7 +314,7 @@
 									<span class="status-available"></span>
 									<span class="suite-number">212</span>
 								</span><br />
-								SUITE C
+								<span class="suite-type">SUITE C</span>
 								<sqt>1097 SQ. FT.</sqt>
 							</p>
 						</span>
@@ -324,7 +324,7 @@
 									<span class="status-available"></span>
 									<span class="suite-number">211</span>
 								</span><br />
-								SUITE C
+								<span class="suite-type">SUITE C</span>
 								<sqt>1097 SQ. FT.</sqt>
 							</p>
 						</span>
@@ -343,7 +343,7 @@
 									<span class="status-available"></span>
 									<span class="suite-number">305</span>
 								</span><br />
-								SUITE F
+								<span class="suite-type">SUITE F</span>
 								<sqt>1099 SQ. FT.</sqt>
 							</p>
 						</span>
@@ -353,7 +353,7 @@
 									<span class="status-available"></span>
 									<span class="suite-number">306</span>
 								</span><br />
-								SUITE B
+								<span class="suite-type">SUITE B</span>
 								<sqt>970 SQ. FT.</sqt>
 							</p>
 						</span>
@@ -363,7 +363,7 @@
 									<span class="status-available"></span>
 									<span class="suite-number">307</span>
 								</span><br />
-								SUITE B
+								<span class="suite-type">SUITE B</span>
 								<sqt>970 SQ. FT.</sqt>
 							</p>
 						</span>
@@ -373,7 +373,7 @@
 									<span class="status-available"></span>
 									<span class="suite-number">308</span>
 								</span><br />
-								SUITE B
+								<span class="suite-type">SUITE B</span>
 								<sqt>970 SQ. FT.</sqt>
 							</p>
 						</span>
@@ -383,7 +383,7 @@
 									<span class="status-available"></span>
 									<span class="suite-number">309</span>
 								</span><br />
-								SUITE C
+								<span class="suite-type">SUITE C</span>
 								<sqt>1097 SQ. FT.</sqt>
 							</p>
 						</span>
@@ -395,7 +395,7 @@
 									<span class="status-available"></span>
 									<span class="suite-number">304</span>
 								</span><br />
-								SUITE B
+								<span class="suite-type">SUITE B</span>
 								<sqt>970 SQ. FT.</sqt>
 							</p>
 						</span>
@@ -405,7 +405,7 @@
 									<span class="status-available"></span>
 									<span class="suite-number">301</span>
 								</span><br />
-								SUITE D
+								<span class="suite-type">SUITE D</span>
 								<sqt>841 SQ. FT.</sqt>
 							</p>
 						</span>
@@ -415,7 +415,7 @@
 									<span class="status-available"></span>
 									<span class="suite-number">313</span>
 								</span><br />
-								SUITE D1
+								<span class="suite-type">SUITE D1</span>
 								<sqt>807 SQ. FT.</sqt>
 							</p>
 						</span>
@@ -425,7 +425,7 @@
 									<span class="status-available"></span>
 									<span class="suite-number">310</span>
 								</span><br />
-								SUITE B
+								<span class="suite-type">SUITE B</span>
 								<sqt>970 SQ. FT.</sqt>
 							</p>
 						</span>
@@ -437,7 +437,7 @@
 									<span class="status-available"></span>
 									<span class="suite-number">303</span>
 								</span><br />
-								SUITE C
+								<span class="suite-type">SUITE C</span>
 								<sqt>1096 SQ. FT.</sqt>
 							</p>
 						</span>
@@ -447,7 +447,7 @@
 									<span class="status-available"></span>
 									<span class="suite-number">302</span>
 								</span><br />
-								SUITE C
+								<span class="suite-type">SUITE C</span>
 								<sqt>1097 SQ. FT.</sqt>
 							</p>
 						</span>
@@ -460,7 +460,7 @@
 									<span class="status-available"></span>
 									<span class="suite-number">312</span>
 								</span><br />
-								SUITE C
+								<span class="suite-type">SUITE C</span>
 								<sqt>1097 SQ. FT.</sqt>
 							</p>
 						</span>
@@ -470,7 +470,7 @@
 									<span class="status-available"></span>
 									<span class="suite-number">311</span>
 								</span><br />
-								SUITE C
+								<span class="suite-type">SUITE C</span>
 								<sqt>1097 SQ. FT.</sqt>
 							</p>
 						</span>
@@ -489,7 +489,7 @@
 									<span class="status-available"></span>
 									<span class="suite-number">405</span>
 								</span><br />
-								SUITE F
+								<span class="suite-type">SUITE F</span>
 								<sqt>1099 SQ. FT.</sqt>
 							</p>
 						</span>
@@ -499,7 +499,7 @@
 									<span class="status-available"></span>
 									<span class="suite-number">406</span>
 								</span><br />
-								SUITE B2
+								<span class="suite-type">SUITE B2</span>
 								<sqt>970 SQ. FT.</sqt>
 							</p>
 						</span>
@@ -509,7 +509,7 @@
 									<span class="status-available"></span>
 									<span class="suite-number">407</span>
 								</span><br />
-								SUITE B
+								<span class="suite-type">SUITE B</span>
 								<sqt>970 SQ. FT.</sqt>
 							</p>
 						</span>
@@ -519,7 +519,7 @@
 									<span class="status-available"></span>
 									<span class="suite-number">408</span>
 								</span><br />
-								SUITE B
+								<span class="suite-type">SUITE B</span>
 								<sqt>970 SQ. FT.</sqt>
 							</p>
 						</span>
@@ -529,7 +529,7 @@
 									<span class="status-available"></span>
 									<span class="suite-number">409</span>
 								</span><br />
-								SUITE C
+								<span class="suite-type">SUITE C</span>
 								<sqt>1097 SQ. FT.</sqt>
 							</p>
 						</span>
@@ -541,7 +541,7 @@
 									<span class="status-available"></span>
 									<span class="suite-number">404</span>
 								</span><br />
-								SUITE B
+								<span class="suite-type">SUITE B</span>
 								<sqt>970 SQ. FT.</sqt>
 							</p>
 						</span>
@@ -551,7 +551,7 @@
 									<span class="status-available"></span>
 									<span class="suite-number">401</span>
 								</span><br />
-								SUITE D
+								<span class="suite-type">SUITE D</span>
 								<sqt>841 SQ. FT.</sqt>
 							</p>
 						</span>
@@ -561,7 +561,7 @@
 									<span class="status-available"></span>
 									<span class="suite-number">413</span>
 								</span><br />
-								SUITE D1
+								<span class="suite-type">SUITE D1</span>
 								<sqt>807 SQ. FT.</sqt>
 							</p>
 						</span>
@@ -571,7 +571,7 @@
 									<span class="status-available"></span>
 									<span class="suite-number">410</span>
 								</span><br />
-								SUITE B
+								<span class="suite-type">SUITE B</span>
 								<sqt>970 SQ. FT.</sqt>
 							</p>
 						</span>
@@ -583,7 +583,7 @@
 									<span class="status-available"></span>
 									<span class="suite-number">403</span>
 								</span><br />
-								SUITE C
+								<span class="suite-type">SUITE C</span>
 								<sqt>1096 SQ. FT.</sqt>
 							</p>
 						</span>
@@ -593,7 +593,7 @@
 									<span class="status-available"></span>
 									<span class="suite-number">402</span>
 								</span><br />
-								SUITE C
+								<span class="suite-type">SUITE C</span>
 								<sqt>1097 SQ. FT.</sqt>
 							</p>
 						</span>
@@ -606,7 +606,7 @@
 									<span class="status-available"></span>
 									<span class="suite-number">412</span>
 								</span><br />
-								SUITE C
+								<span class="suite-type">SUITE C</span>
 								<sqt>1097 SQ. FT.</sqt>
 							</p>
 						</span>
@@ -616,7 +616,7 @@
 									<span class="status-available"></span>
 									<span class="suite-number">411</span>
 								</span><br />
-								SUITE C
+								<span class="suite-type">SUITE C</span>
 								<sqt>1097 SQ. FT.</sqt>
 							</p>
 						</span>
@@ -635,7 +635,7 @@
 									<span class="status-available"></span>
 									<span class="suite-number">505</span>
 								</span><br />
-								SUITE F1
+								<span class="suite-type">SUITE F1</span>
 								<sqt>1445 SQ. FT.</sqt>
 							</p>
 						</span>
@@ -645,7 +645,7 @@
 									<span class="status-available"></span>
 									<span class="suite-number">506</span>
 								</span><br />
-								SUITE B1
+								<span class="suite-type">SUITE B1</span>
 								<sqt>970 SQ. FT.</sqt>
 							</p>
 						</span>
@@ -655,7 +655,7 @@
 									<span class="status-available"></span>
 									<span class="suite-number">507</span>
 								</span><br />
-								SUITE B1
+								<span class="suite-type">SUITE B1</span>
 								<sqt>970 SQ. FT.</sqt>
 							</p>
 						</span>
@@ -665,7 +665,7 @@
 									<span class="status-available"></span>
 									<span class="suite-number">508</span>
 								</span><br />
-								SUITE B1
+								<span class="suite-type">SUITE B1</span>
 								<sqt>970 SQ. FT.</sqt>
 							</p>
 						</span>
@@ -675,7 +675,7 @@
 									<span class="status-available"></span>
 									<span class="suite-number">509</span>
 								</span><br />
-								SUITE C1
+								<span class="suite-type">SUITE C1</span>
 								<sqt>1432 SQ. FT.</sqt>
 							</p>
 						</span>
@@ -687,7 +687,7 @@
 									<span class="status-available"></span>
 									<span class="suite-number">504</span>
 								</span><br />
-								SUITE B1
+								<span class="suite-type">SUITE B1</span>
 								<sqt>970 SQ. FT.</sqt>
 							</p>
 						</span>
@@ -697,7 +697,7 @@
 									<span class="status-available"></span>
 									<span class="suite-number">501</span>
 								</span><br />
-								SUITE D
+								<span class="suite-type">SUITE D</span>
 								<sqt>841 SQ. FT.</sqt>
 							</p>
 						</span>
@@ -707,7 +707,7 @@
 									<span class="status-available"></span>
 									<span class="suite-number">513</span>
 								</span><br />
-								SUITE D1
+								<span class="suite-type">SUITE D1</span>
 								<sqt>807 SQ. FT.</sqt>
 							</p>
 						</span>
@@ -717,7 +717,7 @@
 									<span class="status-available"></span>
 									<span class="suite-number">510</span>
 								</span><br />
-								SUITE B1
+								<span class="suite-type">SUITE B1</span>
 								<sqt>970 SQ. FT.</sqt>
 							</p>
 						</span>
@@ -729,7 +729,7 @@
 									<span class="status-available"></span>
 									<span class="suite-number">503</span>
 								</span><br />
-								SUITE C1
+								<span class="suite-type">SUITE C1</span>
 								<sqt>1432 SQ. FT.</sqt>
 							</p>
 						</span>
@@ -739,7 +739,7 @@
 									<span class="status-available"></span>
 									<span class="suite-number">502</span>
 								</span><br />
-								SUITE C1
+								<span class="suite-type">SUITE C1</span>
 								<sqt>1432 SQ. FT.</sqt>
 							</p>
 						</span>
@@ -752,7 +752,7 @@
 									<span class="status-available"></span>
 									<span class="suite-number">512</span>
 								</span><br />
-								SUITE C1
+								<span class="suite-type">SUITE C1</span>
 								<sqt>1432 SQ. FT.</sqt>
 							</p>
 						</span>
@@ -762,7 +762,7 @@
 									<span class="status-available"></span>
 									<span class="suite-number">511</span>
 								</span><br />
-								SUITE C1
+								<span class="suite-type">SUITE C1</span>
 								<sqt>1432 SQ. FT.</sqt>
 							</p>
 						</span>
