@@ -163,6 +163,10 @@ p {
 	width: 100px;
 }
 
+.red-leaf-logo {
+	width: 250px;
+}
+
 /** Home Page **/
 
 .home-row {
@@ -188,7 +192,9 @@ p {
 #footer {
 	display: block;
 	padding-top: 60px;
-	padding-bottom: 60px;
+	/*padding-bottom: 60px;*/
+	margin-left: 0;
+	width: 100%;
 	background-image: url(../images/neighborhood-bg.png);
 	background-repeat: no-repeat;
 	background-position: center center;
@@ -198,25 +204,16 @@ p {
 	background-size: cover;
 }
 
-#footer .container {
-	width: 65%;
-}
-
 .links a {
-	display: inline-block;
-	margin: 10px;
-	width: 21%;
 	color: white;
-	text-align: center;
 }
 
 .links a img {
 	margin-bottom: 15px;
 }
 
-#footer .info	{
-	margin-top: 20px;
-	padding-left: 7%;
+#footer .container	{
+	margin-bottom: 30px;
 	color: white;
 }
 
