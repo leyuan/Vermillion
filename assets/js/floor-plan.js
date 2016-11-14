@@ -11,15 +11,13 @@ $(".floor-selector").click(function(event) {
 			$('.floor-img-container.active').removeClass('active');
 			// selected image fade in
 
-			console.log( target_floor );
+			// console.log( target_floor );
 			$('.'+target_floor).fadeIn('slow', function() {
 				$('.'+target_floor).addClass('active');
 			});
 		});
 	}
 });
-//floorInfo Signature
-//['Suite name', (BOOL)'Available-status']
 
 var floorInfo = {
 	"Main": {
@@ -97,8 +95,6 @@ var floorInfo = {
 	}
 };
 
-//suiteInfo Signature
-//['img-name','suite-size', 'suite-image', bedroom-bath-room']
 var suiteInfo = {
 	'Suite A': ['Suite-A', '1432 sq.ft', 'assets/images/suite-A.png'],
 	'Suite B': ['Suite-B', '970 sq.ft', 'assets/images/suite-B.png'],
@@ -116,11 +112,17 @@ $(".suite-type-intro").hide();
 $("#Suite-C").show();
 $(".suite-clickable").click(function(event) {
 
+	$(".suite-clickable.active .suite-indicator")[0].classList = 'suite-indicator';
 	$(".suite-clickable.active").removeClass('active');
 
 	$(this).addClass('active');
+	var status = getSuiteStatus(this);
+	$(this.children[0]).addClass(status+'-bg');
 
-	suite = $(".suite-clickable.active>span>.suite-number")[0].innerText;
+	$('#suite-type')[0].classList = 'suite-type';
+	$('#suite-type').addClass(status+'-bg');
+
+	suite = $(".suite-clickable.active .suite-number")[0].innerText;
 	// alert(suite);
 	floor = suite.charAt(0);
 
@@ -140,23 +142,16 @@ $(".suite-clickable").click(function(event) {
 		case '5':
 			floor = "5th";
 			break;
-		case '6':
-			floor = "6th";
-			break;
 		default:
 			floor = "hmm...";
 			break;
 	}
-	// console.log( floor );
+
 	// Try to get the details for clicked suite
 	$.each(floorInfo, function(f_index, f_value) {
-		// console.log(f_index);
-		// first match the floor
 		if( f_index.toLowerCase() == floor.toLowerCase() ){
 			$.each(f_value, function(s_index, s_value) {
-				// then match the suite
 				if( s_index == suite ) {
-					// console.log(s_value);
 					update_suite_intro(floor, suite, s_value[0]);
 				}
 			});
@@ -169,9 +164,9 @@ $(".suite-clickable").click(function(event) {
 	}, 1000);
 });
 
-var update_suite_intro = function(floor, suite_number, suite){
+var update_suite_intro = function (floor, suite_number, suite) {
 	// console.log( "suite -> "+suite );
-	$.each(suiteInfo, function(suite_name, suite_details_arr) {
+	$.each(suiteInfo, function (suite_name, suite_details_arr) {
 		if(suite == suite_name) {
 			var suiteType = suite_details_arr[0];
 			var suiteSize = suite_details_arr[1];
@@ -193,5 +188,9 @@ var update_suite_intro = function(floor, suite_number, suite){
 			}
 		}
 	});
+}
 
+function getSuiteStatus(suite) {
+	var statusClass = suite.children[0].children[0].classList[0];
+	return statusClass.replace('status-', '');
 }

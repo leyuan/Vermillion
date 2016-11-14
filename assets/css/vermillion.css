@@ -164,7 +164,7 @@ p {
 }
 
 .red-leaf-logo {
-	width: 250px;
+	width: 190px;
 }
 
 /** Home Page **/
@@ -592,33 +592,76 @@ p {
 	left: 80%;
 }
 
+.status-container {
+	margin-top: 90px;
+	color: #999999;
+}
+
+.status-container p {
+	font-size: 1.1em;
+}
+
 .status-available {
 	display: inline-block;
 	width: 12px;
 	height: 12px;
-	background-color: #BC1A1A;
 	border-radius: 50%;
+	background-color: green;
+}
+
+.status-reserved {
+	display: inline-block;
+	width: 12px;
+	height: 12px;
+	border-radius: 50%;
+	background-color: #fbcd52;
+}
+
+.status-sold {
+	display: inline-block;
+	width: 12px;
+	height: 12px;
+	border-radius: 50%;
+	background-color: #BC1A1A;
 }
 
 .suite-clickable.active {
 	text-decoration: underline;
 }
 
-.suite-clickable.active > .suite-haha {
+.suite-clickable.active > span {
 	display: inline-block;
 	padding-top: 5px;
 	padding-bottom: 5px;
 	padding-left: 15px;
 	padding-right: 15px;
-	background: #BC1A1A;
+	background-color: green;
 }
 
 .suite-clickable.active > span > .status-available {
 	background: white;
 }
+.suite-clickable.active > span > .status-reserved {
+	background: white;
+}
+.suite-clickable.active > span > .status-sold {
+	background: white;
+}
 
 .suite-clickable.active > span > .suite-number {
 	color: white;
+}
+
+.available-bg {
+	background-color: green !important;
+}
+
+.reserved-bg {
+	background-color: #fbcd52 !important;
+}
+
+.sold-bg {
+	background-color: #BC1A1A !important;
 }
 
 /*main floor row one*/
@@ -696,7 +739,7 @@ p {
 	padding-right: 20px;
 	padding-bottom: 10px;
 	color: white;
-	background: #BC1A1A;
+	background: green;
 	font-weight: 300;
 	font: 1.5em;
 }
@@ -1083,7 +1126,7 @@ sqt {
   	display: none;
   }
 
-	.suite-number-type {
+	suite-type {
 		display: none;
 	}
 
@@ -1093,6 +1136,15 @@ sqt {
 
 	.suite-text-container {
 		padding-top: 0;
+	}
+
+	.status-container {
+		margin: 10px;
+		text-align: center;
+	}
+
+	.status-container p {
+		display: inline;
 	}
 }
 
