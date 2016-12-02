@@ -44,21 +44,24 @@
 		<div class="center text-center sub-row fp-headbanner">
 			<div class="head center white-font blue-overlay">
 				<h2>Neighborhood</h2>
-				<p>A central location that caters to your lifestyle needs</p>
+				<p>A central location that fits to all life styles</p>
 			</div>
 		</div>
 
 		<div class="default-font container location">
-			<h3 class="p-color font-light">Location</h3>
+			<h3 class="p-color font-light">Location, location.</h3>
 			<p>
-				A home is more than just the building you live in. It is about the community comprised of businesses and amenities outside your doorstep. Located just west of the downtown core. <span class="p-color">Vermillion</span> is close to a variety of choices to suit your needs. Whether you are looking to do some shopping, or looking for some services. Connect with nature on many walking trails, pursue a higher education, or take the LRT around the city, we have you covered.
+				Whether it is work, live or play, you will enjoy the walkability and short distance to all the best of amenities in Edmonton.
+				In the heart of the new Brewery District, the Vermillion is just steps away from trendy eateries and shopping, and minutes to the MacEwan University campus and famous Rogers Place.
+				For the ones who enjoy the great outdoors, there are continuous bike and walking trails in the area that connects the our famous river valleys and parks.
+				There is also express public transit to the University of Alberta and NAIT at your door steps.
 			</p>
 		</div>
 
 		<div class="container" id="map-canvas">
 
 		</div>
-		<div class="default-font container">
+		<!-- <div class="default-font container">
 			<div class="shopping col-md-4">
 				<h3 class="p-color font-light">Shopping</h3>
 				<p>
@@ -79,7 +82,7 @@
 					The LRT extension isn't the only new development planned for the area surrounding Vermillion. The government has recently announced ..., With the arena being constructed just east, there are numerous new developments focused on enhancing the Edmonton core.
 				</p>
 			</div>
-		</div>
+		</div> -->
 		<div class="default-font container view">
 			<img src="assets/images/neighbourhood-view.png" alt="Neighbourhood View" class="view-img" />
 		</div>

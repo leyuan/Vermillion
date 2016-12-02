@@ -13,6 +13,7 @@
 		</div>
 		<div id="navbar" class="navbar-collapse collapse float-right">
 			<ul class="nav navbar-nav">
+				<li class="nav-item nav-neighbour"><a href="/">HOME</a></li>
 				<li class="nav-item nav-neighbour"><a href="neighborhood.php">NEIGHBORHOOD</a></li>
 				<!-- <li class="nav-item nav-homes"><a href="home.php">Home</a></li> -->
 				<li class="nav-item nav-Floorplans"><a href="floor-plan.php">FLOOR PLANS</a></li>

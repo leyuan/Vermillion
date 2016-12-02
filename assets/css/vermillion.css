@@ -204,6 +204,10 @@ p {
 	background-size: cover;
 }
 
+#footer .sales-center-info {
+	font-weight: 700;
+}
+
 .links a {
 	color: white;
 }
@@ -1010,6 +1014,7 @@ input:checked + label {
 .contact-right {
   /*background: #f1f1f1 none repeat scroll 0 0;*/
   position: relative;
+	font-weight: 700;
 }
 
 .contact-right-img {

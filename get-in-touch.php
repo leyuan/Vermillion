@@ -62,7 +62,7 @@
 	                   </div>
 	                   <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 address">
 	                   	<div class="contact-right text-left">
-	                           <h4>Redleaf Group</h4>
+	                           <h4 style="font-weight: 700;">Sales Center</h4>
 	                           <p>
 	                               10351 92 Street NW<br>
 	                               Edmonton AB, Canada, T5H 0E4<br>
@@ -70,10 +70,16 @@
 	                               <a href="tel:780-475-5999">780.475.5999</a><br>
 	                               <!-- Chuchu - +1 780-xxx-xxxx -->
 	                           </p>
-	                           <p>
+														 <p>
+														 	Mon-Thurs 2pm - 6pm <br>
+															Weekends 1pm - 5pm <br>
+															Close on Friday & Holidays
+														 </p>
+														 <p>
 	                               E-mail: <a href="mailto:info@redleafcanada.com?Subject=Condo Inquiry" target="_top">info@redleafcanada.com</a><br>
 	                               Website: www.vermillioncondos.com
 	                           </p>
+														 <h4 style="font-weight: 700; color: #BC1A1A;">The Readleaf Group</h4>														 
 	                           <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2370.4979261951303!2d-113.47764788436803!3d53.548878380021975!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x53a02257a6f587c7%3A0x1c935443e4d79918!2s10351+92+St+NW%2C+Edmonton%2C+AB+T5H!5e0!3m2!1sen!2sca!4v1460431906625" width="100%" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
 	                       </div>
 	                   </div>

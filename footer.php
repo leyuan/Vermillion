@@ -33,14 +33,14 @@
       <p>10611 116 STREET NW, EDMONTON</p>
       <p>(780)-475-5999</p>
     </div>
-    <div class="col-xs-6 col-sm-6 col-md-4 text-center">
+    <div class="col-xs-6 col-sm-6 col-md-4 text-center sales-center-info">
       <h4><u>Sales Center</u></h4>
       <p>
         <p>10351 92 Street NW, Edmonton</p>
         <p>(780)-475-5999 </p>
         <p>info@redleafcanada.com</p>
-        <p>Mon-Thurs 3pm-7pm</p>
-        <p>Weekends 1pm-5pm</p>
+        <p>Mon-Thurs 2pm - 6pm</p>
+        <p>Weekends 1pm - 5pm</p>
         <p>Close on Friday & Holidays</p>
       </p>
     </div>
