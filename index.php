@@ -143,6 +143,8 @@
    	 			    <li><img src="assets/images/slider/thumb2.jpg" alt="" data-large-src="assets/images/slider/file2.jpg"></li>
    	 			    <li><img src="assets/images/slider/thumb3.jpg" alt="" data-large-src="assets/images/slider/file3.jpg"></li>
    	 			    <li><img src="assets/images/slider/thumb4.jpg" alt="" data-large-src="assets/images/slider/file4.jpg"></li>
+   	 			    <li><img src="assets/images/slider/v-1.jpg" alt="" data-large-src="assets/images/slider/v-1.jpg"></li>
+   	 			    <li><img src="assets/images/slider/v-2.jpg" alt="" data-large-src="assets/images/slider/v-2.jpg"></li>
    	 			    <!-- <li><img src="assets/images/slider/thumb5.jpg" alt="" data-large-src="assets/images/slider/file5.jpg"></li>
    	 			    <li><img src="assets/images/slider/thumb6.jpg" alt="" data-large-src="assets/images/slider/file6.jpg"></li>
    	 			    <li><img src="assets/images/slider/thumb7.jpg" alt="" data-large-src="assets/images/slider/file7.jpg"></li>
@@ -166,31 +168,6 @@
         maxHeight: 700
       };
       var pgwSlideshow = $('.pgwSlideshow').pgwSlideshow(config);
-      $("#get-in-touch-form").submit( function(event){
-        event.preventDefault();
-        var formData = $("#get-in-touch-form").serialize();
-        var message = "Submitting ...";
-        $("#form-message").text(message);
-
-        $.ajax({
-          type: 'POST',
-          url: "sendgrid.php",
-          data: formData
-        }).done(function(response) {
-          console.log( response );
-          if(response == "success") {
-            message = "Thanks for touching base! We will contact you soon."
-            $("get-in-touch-form").trigger("reset");
-          } else if (response == "bad request") {
-            message = "Something is wrong with your request, please check and try again."
-          } else {
-            message = "Oops.. Something went wrong, please give us a call.";
-          }
-          $("#form-message").text(message);
-        }).fail(function(error) {
-          $("#form-message").text("Oops.. An error has occured, please give us a call.");
-        })
-      });
     });
   </script>
   </body>

@@ -6,6 +6,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $email_from = filter_var(trim($_POST["email"]), FILTER_SANITIZE_EMAIL);
     $phone = trim($_POST["phone"]);
     $message = trim($_POST["message"]);
+    $reserve = $_POST["reserve"];
 
     if ( empty($name_from) OR empty($message) OR !filter_var($email_from, FILTER_VALIDATE_EMAIL)) {
         echo "bad request";
@@ -15,6 +16,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     $email_content = "Name: $name_from\n\n";
     $email_content .= "Email: $email_from\n\n";
+    $email_content .= "Reserve: $reserve\n\n";
     $email_content .= "Message:\n\n$message\n\n";
     $sendgrid = new SendGrid('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');
     $email = new SendGrid\Email();

@@ -936,10 +936,30 @@ input:checked + label {
   height: 50px;
   margin-bottom: 20px;
   padding: 0 24px;
-  width: 100%;
+  /*width: 100%;*/
   font-family: "PT Serif",sans-serif;
   font-style:italic;
 }
+
+input[type=checkbox]
+{
+  /* Double-sized Checkboxes */
+  -ms-transform: scale(2); /* IE */
+  -moz-transform: scale(2); /* FF */
+  -webkit-transform: scale(2); /* Safari and Chrome */
+  -o-transform: scale(2); /* Opera */
+  padding: 10px;
+}
+
+/* Might want to wrap a span around your checkbox text */
+.checkboxtext
+{
+  /* Checkbox text */
+	padding: 10px;
+  font-size: 110%;
+  display: inline;
+}
+
 .contact-form form textarea {
   border: 1px solid #e8e8e8;
   color: #959595;

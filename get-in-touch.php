@@ -51,9 +51,15 @@
 	               	<div class="col-lg-8 col-md-8 col-sm-8 col-xs-12">
 	                   	<div class="contact-form">
                        	<form action="/mail" class="thm-contact-form" method="GET" id="get-in-touch-form">
-                          <input name="name" type="text" placeholder="Your Name">
-                          <input name="email" type="text" placeholder="Email Address">
-                          <input name="phone" type="text" placeholder="Phone No.">
+                          <input name="name" type="text" placeholder="Your Name" class="col-md-12" required>
+                          <input name="email" type="text" placeholder="Email Address" class="col-md-12" required>
+                          <input name="phone" type="text" placeholder="Phone No." required class="col-sm-6 col-md-6">
+													<div class="col-sm-6 col-md-6" style="padding: 2%;">
+														<input type="checkbox" name="reserve" />
+														<span class="checkboxtext">
+														  I want to reserve
+														</span>
+													</div>
                           <textarea name="message" placeholder="Message"></textarea>
                           <button type="submit">Submit Now <i class="fa fa-arrow-right"></i></button>
                         </form>
@@ -76,10 +82,10 @@
 															Close on Friday & Holidays
 														 </p>
 														 <p>
-	                               E-mail: <a href="mailto:info@redleafcanada.com?Subject=Condo Inquiry" target="_top">info@redleafcanada.com</a><br>
+	                               E-mail: <a href="mailto:info@redleafcanada.com?Subject=Condo-Inquiry" target="_top">info@redleafcanada.com</a><br>
 	                               Website: www.vermillioncondos.com
 	                           </p>
-														 <h4 style="font-weight: 700; color: #BC1A1A;">The Readleaf Group</h4>														 
+														 <h4 style="font-weight: 700; color: #BC1A1A;">The Readleaf Group</h4>
 	                           <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2370.4979261951303!2d-113.47764788436803!3d53.548878380021975!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x53a02257a6f587c7%3A0x1c935443e4d79918!2s10351+92+St+NW%2C+Edmonton%2C+AB+T5H!5e0!3m2!1sen!2sca!4v1460431906625" width="100%" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
 	                       </div>
 	                   </div>
@@ -90,8 +96,34 @@
 		<?php
 		include_once("footer.php");
 		?>
-		<script>
+		<script type="text/javascript">
+	    $(document).ready(function() {
+	      $("#get-in-touch-form").submit( function(event){
+	        event.preventDefault();
+	        var formData = $("#get-in-touch-form").serialize();
+	        var message = "Submitting ...";
+	        $("#form-message").text(message);
 
-		</script>
+	        $.ajax({
+	          type: 'POST',
+	          url: "sendgrid.php",
+	          data: formData
+	        }).done(function(response) {
+	          console.log( response );
+	          if(response == "success") {
+	            message = "Thanks for touching base! We will contact you soon."
+	            $("get-in-touch-form").trigger("reset");
+	          } else if (response == "bad request") {
+	            message = "Something is wrong with your request, please check and try again."
+	          } else {
+	            message = "Oops.. Something went wrong, please give us a call.";
+	          }
+	          $("#form-message").text(message);
+	        }).fail(function(error) {
+	          $("#form-message").text("Oops.. An error has occured, please give us a call.");
+	        })
+	      });
+	    });
+	  </script>
 	</body>
   </html>
