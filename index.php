@@ -33,15 +33,18 @@
 		<div class="container center text-center">
 			<div class="head center">
 				<h2>Vermillion</h2>
+        <h3>
+    			10611 116 STREET NW, Edmonton
+    		</h3>
 				<!-- <h4 class="p-color">Feel comfortable with your choice in condos</h4> -->
 			</div>
 		</div>
 	</div>
 
 	<div id="home-row-location">
-		<h3>
-			10611 116 STREET NW, EDMONTON
-		</h3>
+		<h4>
+			Reserve Today: (780)-475-5999 / 10351 92 Street NW, Edmonton
+		</h4>
 	</div>
 
 	<div class="home-row" id="home-row-three">

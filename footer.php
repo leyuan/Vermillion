@@ -37,7 +37,7 @@
       <h4><u>Sales Center</u></h4>
       <p>
         <p>10351 92 Street NW, Edmonton</p>
-        <p>(780)-475-5999 </p>
+        <p>(780)-475-5999</p>
         <p>info@redleafcanada.com</p>
         <p>Mon-Thurs 2pm - 6pm</p>
         <p>Weekends 1pm - 5pm</p>
@@ -46,7 +46,7 @@
     </div>
     <div class="col-xs-12 col-sm-12 col-md-4 text-center">
       <p>
-        <img src="assets/images/red-leaf-logo.png" class="red-leaf-logo"/>
+        <img src="assets/images/red-leaf-logo2.png" class="red-leaf-logo"/>
       </p>
       <p>COPYRIGHT © RED LEAF LTD. 2016</p>
       <p>ALL RIGHTS RESERVED.</p>

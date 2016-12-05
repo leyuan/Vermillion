@@ -84,7 +84,7 @@
 			</div>
 		</div> -->
 		<div class="default-font container view">
-			<img src="assets/images/neighbourhood-view.png" alt="Neighbourhood View" class="view-img" />
+			<img src="assets/images/neighbour.png" alt="Neighbourhood View" class="view-img" />
 		</div>
 
 
