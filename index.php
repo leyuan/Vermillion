@@ -100,9 +100,11 @@
 							<ul>
 								<li>Your choice of two distinctive color interiors</li>
 								<li>Over 10’ ceilings for most areas in all units</li>
-                <li>High grade Laminated floors and tiles High quality ceramic tile floors in bathrooms and laundry room</li>
+                <li>High grade Engineering Hardwood floors and tiles</li>
+                <li>High quality ceramic tile floors in bathrooms and laundry room</li>
 								<li>Sleek brushed nickel finished hardware and fixtures</li>
-								<li>High end stackable front load washer and dryer Ultra- modern wall-mount Fireplaces with LED backlight</li>
+								<li>High end stackable front load washer and dryer</li>
+                <li>Ultra- modern wall-mount Fireplaces with LED backlight</li>
 							</ul>
 						  </section>
 
